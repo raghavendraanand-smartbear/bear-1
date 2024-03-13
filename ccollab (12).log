@@ -1,0 +1,2467 @@
+!SESSION 2023-06-20 09:26:16.183 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY org.eclipse.update.configurator 4 0 2023-06-20 09:26:21.137
+!MESSAGE Could not rename configuration temp file
+
+!ENTRY org.eclipse.update.configurator 4 0 2023-06-20 09:26:21.139
+!MESSAGE Unable to save configuration file "C:\Users\ccqanil\.smartbear\configuration\org.eclipse.update\platform.xml.tmp"
+!STACK 0
+java.io.IOException: Unable to save configuration file "C:\Users\ccqanil\.smartbear\configuration\org.eclipse.update\platform.xml.tmp"
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:690)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.save(PlatformConfiguration.java:574)
+	at org.eclipse.update.internal.configurator.PlatformConfiguration.startup(PlatformConfiguration.java:714)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.getPlatformConfiguration(ConfigurationActivator.java:404)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.initialize(ConfigurationActivator.java:136)
+	at org.eclipse.update.internal.configurator.ConfigurationActivator.start(ConfigurationActivator.java:69)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:815)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:808)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:765)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1005)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:357)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:589)
+	at org.eclipse.osgi.container.Module.start(Module.java:457)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1784)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1764)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1726)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1657)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+!SESSION 2023-06-20 09:26:16.188 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:26:23.779
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:26:23.789
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator.standalone 4 0 2023-06-20 09:26:25.393
+!MESSAGE Loading SCM Configurations from legacy format
+
+!ENTRY com.smartbear.collaborator.standalone 4 0 2023-06-20 09:26:25.394
+!MESSAGE Legacy SCM Configuration prefs file 'C:\Users\ccqanil\.smartbear\instance\.metadata\.plugins\org.eclipse.core.runtime\.settings\com.smartbear.collaborator.prefs' does not exist
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:31:26.295
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:32:05.918
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:41:25.905
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:42:53.065
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:43:29.110
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@1b1fde8
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:44:47.876
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:44:55.221
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@1aeca0b
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 09:45:08.357
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@1aeca0b
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+!SESSION 2023-06-20 12:51:05.553 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:06.859
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:07.983
+!MESSAGE INFO: Tue Jun 20 12:51:07 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:07.988
+!MESSAGE INFO: Tue Jun 20 12:51:07 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.134
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.140
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:08.222
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@985ce9
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.279
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.286
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.348
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.354
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:08.413
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@759011
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.496
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.509
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.594
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:08.600
+!MESSAGE INFO: Tue Jun 20 12:51:08 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:08.682
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@985ce9
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:12.285
+!MESSAGE INFO: Tue Jun 20 12:51:12 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:12.290
+!MESSAGE INFO: Tue Jun 20 12:51:12 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:12.359
+!MESSAGE INFO: Tue Jun 20 12:51:12 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:12.366
+!MESSAGE INFO: Tue Jun 20 12:51:12 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:12.436
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@985ce9
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:15.720
+!MESSAGE INFO: Tue Jun 20 12:51:15 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:15.728
+!MESSAGE INFO: Tue Jun 20 12:51:15 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:15.810
+!MESSAGE INFO: Tue Jun 20 12:51:15 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:15.815
+!MESSAGE INFO: Tue Jun 20 12:51:15 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:15.880
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@759011
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:17.628
+!MESSAGE INFO: Tue Jun 20 12:51:17 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:17.636
+!MESSAGE INFO: Tue Jun 20 12:51:17 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:17.702
+!MESSAGE INFO: Tue Jun 20 12:51:17 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:51:17.706
+!MESSAGE INFO: Tue Jun 20 12:51:17 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 12:51:17.802
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@759011
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.ApplicationConnectionException: Error connecting to alms.strattec.com:7001: The IP address of the host could not be determined
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:275)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:52:54.012
+!MESSAGE INFO: Tue Jun 20 12:52:54 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:52:54.016
+!MESSAGE INFO: Tue Jun 20 12:52:54 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:54:02.268
+!MESSAGE INFO: Tue Jun 20 12:54:02 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 12:54:02.279
+!MESSAGE INFO: Tue Jun 20 12:54:02 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 12:55:51.694
+!MESSAGE Could not verify connection to Collaborator Enterprise Server
+!STACK 0
+com.smartbear.ccollab.client.CollabClientServerConnectivityException: Unexpected Error: Authentication unsuccessful, please try again.
+	at com.smartbear.ccollab.client.LoginUtils.establishJsonConnection(LoginUtils.java:267)
+	at com.smartbear.ccollab.client.LoginUtils.jsonLogin(LoginUtils.java:289)
+	at com.smartbear.collaborator.Collaborator.testClientConnection(Collaborator.java:114)
+	at com.smartbear.collaborator.ui.preferences.ServerConnectionPage$1$1.run(ServerConnectionPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.lang.NullPointerException
+	at com.smartbear.collaborator.json.utils.BatchRequest.<init>(BatchRequest.java:148)
+	at com.smartbear.collaborator.json.api.AbstractApi.createBatchRequest(AbstractApi.java:50)
+	at com.smartbear.collaborator.json.api.ServerInfoApi.getServerBuild(ServerInfoApi.java:36)
+	at com.smartbear.ccollab.client.LoginUtils.jsonCheckServerBuild(LoginUtils.java:172)
+	at com.smartbear.ccollab.client.LoginUtils.establishJsonConnection(LoginUtils.java:196)
+	... 4 more
+
+!ENTRY com.smartbear.collaborator 4 0 2023-06-20 13:10:12.311
+!MESSAGE ERROR: Tue Jun 20 13:10:12 IST 2023: com.smartbear.scm
+Work item exception running si viewcp
+!STACK 0
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 13:10:12.329
+!MESSAGE Error loading changelist IDs:[180711:1]
+!STACK 0
+com.smartbear.cmdline.ScmCommunicationException: 180711:1: not a valid change package id, or change package id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:127)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.mks.api.response.InvalidCommandSelectionException: 180711:1: not a valid change package id, or change package id not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getWorkItem(XMLResponseHandler.java:475)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:265)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 8 more
+
+!ENTRY com.smartbear.collaborator 4 0 2023-06-20 13:13:07.483
+!MESSAGE ERROR: Tue Jun 20 13:13:07 IST 2023: com.smartbear.scm
+Work item exception running si viewcp
+!STACK 0
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 13:13:07.496
+!MESSAGE Error loading changelist IDs:[180711:1]
+!STACK 0
+com.smartbear.cmdline.ScmCommunicationException: 180711:1: not a valid change package id, or change package id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:127)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.mks.api.response.InvalidCommandSelectionException: 180711:1: not a valid change package id, or change package id not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getWorkItem(XMLResponseHandler.java:475)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:265)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 8 more
+
+!ENTRY com.smartbear.collaborator 4 0 2023-06-20 13:14:26.431
+!MESSAGE ERROR: Tue Jun 20 13:14:26 IST 2023: com.smartbear.scm
+Work item exception running si viewcp
+!STACK 0
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 13:14:26.444
+!MESSAGE Error loading changelist IDs:[180711:1]
+!STACK 0
+com.smartbear.cmdline.ScmCommunicationException: 180711:1: not a valid change package id, or change package id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:127)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.mks.api.response.InvalidCommandSelectionException: 180711:1: not a valid change package id, or change package id not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getWorkItem(XMLResponseHandler.java:475)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:265)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 8 more
+
+!ENTRY com.smartbear.collaborator 4 0 2023-06-20 13:15:21.973
+!MESSAGE ERROR: Tue Jun 20 13:15:21 IST 2023: com.smartbear.scm
+Work item exception running si viewcp
+!STACK 0
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 13:15:21.985
+!MESSAGE Error loading changelist IDs:[180711:1]
+!STACK 0
+com.smartbear.cmdline.ScmCommunicationException: 180711:1: not a valid change package id, or change package id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:127)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.mks.api.response.InvalidCommandSelectionException: 180711:1: not a valid change package id, or change package id not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getWorkItem(XMLResponseHandler.java:475)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:265)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 8 more
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 13:15:35.698
+!MESSAGE Error loading changelist IDs:[180711]
+!STACK 0
+com.smartbear.scm.ScmUncontrolledFileException: 180711: not a valid item id, or item id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:123)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:17:20.163
+!MESSAGE INFO: Tue Jun 20 13:17:20 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:17:20.177
+!MESSAGE INFO: Tue Jun 20 13:17:20 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:17:23.185
+!MESSAGE INFO: Tue Jun 20 13:17:23 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:17:23.190
+!MESSAGE INFO: Tue Jun 20 13:17:23 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:19:10.788
+!MESSAGE INFO: Tue Jun 20 13:19:10 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:19:10.793
+!MESSAGE INFO: Tue Jun 20 13:19:10 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAL/Cal.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:19:10.815
+!MESSAGE INFO: Tue Jun 20 13:19:10 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/APPL/Appl_SWS.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:19:10.816
+!MESSAGE INFO: Tue Jun 20 13:19:10 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/APPL/Appl_Interface.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:36:17.155
+!MESSAGE INFO: Tue Jun 20 13:36:17 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:36:17.156
+!MESSAGE INFO: Tue Jun 20 13:36:17 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAL/Cal.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:36:17.157
+!MESSAGE INFO: Tue Jun 20 13:36:17 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/APPL/Appl_SWS.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 13:36:17.158
+!MESSAGE INFO: Tue Jun 20 13:36:17 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/APPL/Appl_Interface.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:24:13.688
+!MESSAGE INFO: Tue Jun 20 14:24:13 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:24:13.689
+!MESSAGE INFO: Tue Jun 20 14:24:13 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CDD/Cdd_OfnSensor.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:36:04.884
+!MESSAGE INFO: Tue Jun 20 14:36:04 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:36:04.885
+!MESSAGE INFO: Tue Jun 20 14:36:04 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/SYSTEMSERVICES/ECU_Management/Ecu_StateManager/EcuStateManager.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.553
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.554
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/BSW/Dynamic/Com/src/Rte_Cbk.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.557
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/Stubs/src/BswM_CanSM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.558
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/CAN_Abstraction/Can_Output_Fnc.h
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.559
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/MCAL/config/HARMONY/initialization.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.560
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.562
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/CAN_Abstraction/Can_Output_Fnc.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:42:03.562
+!MESSAGE INFO: Tue Jun 20 14:42:03 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/MCAL/config/HARMONY/interrupts.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.048
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.053
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.054
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.055
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.056
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.057
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.058
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.062
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.063
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.065
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.066
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.072
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.073
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.073
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.080
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.086
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.088
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.090
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.097
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.113
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.127
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.135
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.137
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.142
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.153
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.157
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.158
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.165
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.176
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.179
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.181
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:47:03.184
+!MESSAGE INFO: Tue Jun 20 14:47:03 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-06-20 14:48:40.297 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 14:48:41.878
+!MESSAGE Collaborator Enterprise version 13.2.13200
+!SESSION 2023-06-20 14:48:40.306 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 14:48:41.903
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:48:43.830
+!MESSAGE INFO: Tue Jun 20 14:48:43 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:48:43.836
+!MESSAGE INFO: Tue Jun 20 14:48:43 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:48:44.178
+!MESSAGE INFO: Tue Jun 20 14:48:44 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:48:44.190
+!MESSAGE INFO: Tue Jun 20 14:48:44 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:48:57.002
+!MESSAGE INFO: Tue Jun 20 14:48:57 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:54:29.205
+!MESSAGE INFO: Tue Jun 20 14:54:29 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:54:29.209
+!MESSAGE INFO: Tue Jun 20 14:54:29 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/HW_ABS/Hwab_Init.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 14:54:29.218
+!MESSAGE INFO: Tue Jun 20 14:54:29 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/MCAL/config/HARMONY/peripheral/clock/plib_clock.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:22:06.542
+!MESSAGE INFO: Tue Jun 20 15:22:06 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:22:06.544
+!MESSAGE INFO: Tue Jun 20 15:22:06 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:24:36.801
+!MESSAGE INFO: Tue Jun 20 15:24:36 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:24:36.802
+!MESSAGE INFO: Tue Jun 20 15:24:36 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:26:18.026
+!MESSAGE INFO: Tue Jun 20 15:26:18 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:26:18.028
+!MESSAGE INFO: Tue Jun 20 15:26:18 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWSL_J1.X/Btl_S_Record/AML_XCL_SWSL_J1.X.production_BTL.s37
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:49:49.913
+!MESSAGE INFO: Tue Jun 20 15:49:49 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:49:49.919
+!MESSAGE INFO: Tue Jun 20 15:49:49 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWSR_J1.X/Btl_S_Record/AML_XCL_SWSR_J1.X.production_BTL.s37
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:51:41.506
+!MESSAGE INFO: Tue Jun 20 15:51:41 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:51:41.507
+!MESSAGE INFO: Tue Jun 20 15:51:41 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:54:02.407
+!MESSAGE INFO: Tue Jun 20 15:54:02 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:54:02.407
+!MESSAGE INFO: Tue Jun 20 15:54:02 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:55:00.280
+!MESSAGE INFO: Tue Jun 20 15:55:00 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:55:00.281
+!MESSAGE INFO: Tue Jun 20 15:55:00 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/HW_ABS/Hwab_Init.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:55:00.282
+!MESSAGE INFO: Tue Jun 20 15:55:00 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/MCAL/config/HARMONY/peripheral/clock/plib_clock.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.595
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.596
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/BSW/Dynamic/Com/src/Rte_Cbk.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.597
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/Stubs/src/BswM_CanSM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.598
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/CAN_Abstraction/Can_Output_Fnc.h
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.599
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/CAN_Abstraction/Can_Output_Fnc.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.599
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAN/Stubs/src/ComM.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.600
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/MCAL/config/HARMONY/interrupts.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:56:05.601
+!MESSAGE INFO: Tue Jun 20 15:56:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/MCAL/config/HARMONY/initialization.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:57:12.869
+!MESSAGE INFO: Tue Jun 20 15:57:12 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:57:12.870
+!MESSAGE INFO: Tue Jun 20 15:57:12 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/SYSTEMSERVICES/ECU_Management/Ecu_StateManager/EcuStateManager.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:58:33.213
+!MESSAGE INFO: Tue Jun 20 15:58:33 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 15:58:33.214
+!MESSAGE INFO: Tue Jun 20 15:58:33 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CDD/Cdd_OfnSensor.c
+
+!ENTRY com.smartbear.collaborator 4 0 2023-06-20 15:58:52.995
+!MESSAGE ERROR: Tue Jun 20 15:58:52 IST 2023: com.smartbear.scm
+Work item exception running si viewcp
+!STACK 0
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2023-06-20 15:58:53.104
+!MESSAGE Error loading changelist IDs:[180648:1]
+!STACK 0
+com.smartbear.cmdline.ScmCommunicationException: 180648:1: not a valid change package id, or change package id not found.
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:127)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:140)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.execute(MksCommandViewCp.java:34)
+	at com.smartbear.scm.impl.mks.MksCommandViewCp.getChangePackage(MksCommandViewCp.java:285)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.getChangelist(MksClientConfiguration.java:126)
+	at com.smartbear.collaborator.ui.wizards.SubmittedChangelistsSelectionPage$2$1.run(SubmittedChangelistsSelectionPage.java:178)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$2.run(ProgressWizardDialog.java:158)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.mks.api.response.InvalidCommandSelectionException: 180648:1: not a valid change package id, or change package id not found.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:46)
+	at com.mks.api.response.impl.XMLResponseHandler.getException(XMLResponseHandler.java:1124)
+	at com.mks.api.response.impl.XMLResponseHandler.getWorkItem(XMLResponseHandler.java:475)
+	at com.mks.api.response.impl.XMLResponseHandler.getResponse(XMLResponseHandler.java:265)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:288)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 8 more
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 16:21:29.144
+!MESSAGE INFO: Tue Jun 20 16:21:29 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 16:21:29.156
+!MESSAGE INFO: Tue Jun 20 16:21:29 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-06-20 17:25:33.800 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-20 17:25:34.854
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:25:36.420
+!MESSAGE INFO: Tue Jun 20 17:25:36 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:25:36.428
+!MESSAGE INFO: Tue Jun 20 17:25:36 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:27:28.396
+!MESSAGE INFO: Tue Jun 20 17:27:28 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:27:28.401
+!MESSAGE INFO: Tue Jun 20 17:27:28 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CAL/Cal.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:28:05.601
+!MESSAGE INFO: Tue Jun 20 17:28:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:28:05.602
+!MESSAGE INFO: Tue Jun 20 17:28:05 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CAL/Cal.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-20 17:29:50.468
+!MESSAGE INFO: Tue Jun 20 17:29:50 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-06-28 12:12:51.786 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 12:12:53.165
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 12:12:56.997
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@59e786
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 12:12:59.085
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@59e786
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 12:14:55.242
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@59e786
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+!SESSION 2023-06-28 12:16:04.563 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 12:16:05.353
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 12:16:06.480
+!MESSAGE INFO: Wed Jun 28 12:16:06 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 12:16:06.487
+!MESSAGE INFO: Wed Jun 28 12:16:06 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 13:02:46.832
+!MESSAGE INFO: Wed Jun 28 13:02:46 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 13:02:46.844
+!MESSAGE INFO: Wed Jun 28 13:02:46 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-06-28 16:59:29.411 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-06-28 16:59:30.172
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 16:59:31.262
+!MESSAGE INFO: Wed Jun 28 16:59:31 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 16:59:31.266
+!MESSAGE INFO: Wed Jun 28 16:59:31 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:02:48.907
+!MESSAGE INFO: Wed Jun 28 17:02:48 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:02:48.911
+!MESSAGE INFO: Wed Jun 28 17:02:48 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CDD/QuadRol_Sensor.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:11:19.677
+!MESSAGE INFO: Wed Jun 28 17:11:19 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:11:19.678
+!MESSAGE INFO: Wed Jun 28 17:11:19 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_R/SWE3/Source/Application/AML_XCL_SWS_RSM_MY24/CDD/Cdd_OfnSensor.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:16:59.676
+!MESSAGE INFO: Wed Jun 28 17:16:59 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-06-28 17:16:59.770
+!MESSAGE INFO: Wed Jun 28 17:16:59 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-07-04 09:56:29.101 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-07-04 09:56:30.244
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-07-04 09:56:31.817
+!MESSAGE INFO: Tue Jul 04 09:56:31 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-07-04 09:56:31.825
+!MESSAGE INFO: Tue Jul 04 09:56:31 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-07-04 10:07:20.948
+!MESSAGE INFO: Tue Jul 04 10:07:20 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-07-04 10:07:20.952
+!MESSAGE INFO: Tue Jul 04 10:07:20 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_SWS_L/SWE3/Source/Application/AML_XCL_SWS_LSM_MY24/CDD/QuadRol_Sensor.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-07-04 13:42:54.136
+!MESSAGE INFO: Tue Jul 04 13:42:54 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+!SESSION 2023-09-20 13:01:16.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-09-20 13:01:17.415
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-09-20 13:01:19.055
+!MESSAGE INFO: Wed Sep 20 13:01:19 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-09-20 13:01:19.060
+!MESSAGE INFO: Wed Sep 20 13:01:19 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-09-20 13:01:39.479
+!MESSAGE INFO: Wed Sep 20 13:01:39 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-09-20 13:02:11.529 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-09-20 13:02:12.252
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-09-20 13:02:13.305
+!MESSAGE INFO: Wed Sep 20 13:02:13 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-09-20 13:02:13.309
+!MESSAGE INFO: Wed Sep 20 13:02:13 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2023-10-16 16:23:36.799 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2023-10-16 16:23:37.969
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:23:39.663
+!MESSAGE INFO: Mon Oct 16 16:23:39 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:23:39.670
+!MESSAGE INFO: Mon Oct 16 16:23:39 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:26:32.223
+!MESSAGE INFO: Mon Oct 16 16:26:32 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:26:32.241
+!MESSAGE INFO: Mon Oct 16 16:26:32 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:26:41.787
+!MESSAGE INFO: Mon Oct 16 16:26:41 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:26:41.794
+!MESSAGE INFO: Mon Oct 16 16:26:41 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:33:38.799
+!MESSAGE INFO: Mon Oct 16 16:33:38 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Creating changelist
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 16:33:38.803
+!MESSAGE INFO: Mon Oct 16 16:33:38 IST 2023: com.smartbear.ccollab.datamodel.Scm
+Processing /AML_XCL_PRND/SWE3/Source/Application/AML_XCL_PRND/CDD/Cdd.c
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.732
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.732
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.734
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Recoverable exception caught when processing request
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.740
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.748
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+
+!ENTRY com.smartbear.collaborator 1 0 2023-10-16 18:28:24.752
+!MESSAGE INFO: Mon Oct 16 18:28:24 IST 2023: org.apache.commons.httpclient.HttpMethodBase
+Redirect requested but followRedirects is disabled
+!SESSION 2024-03-01 12:19:36.907 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:39.220
+!MESSAGE Collaborator Enterprise version 13.2.13200
+!SESSION 2024-03-01 12:19:36.970 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_322
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:39.173
+!MESSAGE Collaborator Enterprise version 13.2.13200
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:44.025
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:44.137
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:46.487
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:19:46.502
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:23:35.004
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:23:44.627
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$3.widgetSelected(ScmConfigsViewer.java:167)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:24:14.502
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:24:16.577
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@19f7aa3
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:24:20.034
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@76d598
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:24:28.704
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@19f7aa3
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:24:33.757
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@19f7aa3
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:25:05.362
+!MESSAGE Error validating SCM configuration
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigDialog.okPressed(ScmConfigDialog.java:574)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.smartbear.collaborator.ui.standalone.scmconfigs.ScmConfigsViewer$4.widgetSelected(ScmConfigsViewer.java:193)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at com.smartbear.collaborator.ui.standalone.StandaloneUI.run(StandaloneUI.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.invokeFramework(AbstractGuiCommand.java:248)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:313)
+	at org.eclipse.core.launcher.Main.run(Main.java:1010)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand$EclipseMainWithApplicationArgument.run(AbstractGuiCommand.java:216)
+	at com.smartbear.ccollab.client.commands.eclipse.AbstractGuiCommand.executeJson(AbstractGuiCommand.java:186)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:360)
+	at com.smartbear.ccollab.CLI.doMain(CLI.java:908)
+	at com.smartbear.ccollab.GuiMain.main(GuiMain.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:85)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:94)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:25)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 50 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 52 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 54 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:25:15.037
+!MESSAGE Could not determine SCM Configuration for ScmConfig com.smartbear.collaborator.standalone.ScmConfig@19f7aa3
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2024-03-01 12:25:21.115
+!MESSAGE Could not get client configuration from ScmConfig com.smartbear.collaborator.standalone.ScmConfig@19f7aa3
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:89)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:31)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:591)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$3.run(CollabGUIApp.java:156)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:401)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:182)
+	at com.smartbear.scm.impl.mks.MksClientConfiguration.fromOptions(MksClientConfiguration.java:155)
+	at com.smartbear.scm.impl.mks.MksSystem.getClientConfiguration(MksSystem.java:86)
+	... 6 more
+Caused by: com.smartbear.cmdline.ScmCommunicationException: Connection refused: connect
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:130)
+	at com.smartbear.scm.impl.mks.MksCommandConnect.execute(MksCommandConnect.java:11)
+	at com.smartbear.scm.impl.mks.MksConnection.connect(MksConnection.java:166)
+	... 8 more
+Caused by: com.mks.api.response.APIConnectionException: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.mks.api.response.APIExceptionFactory.getAPIExceptionObject(APIExceptionFactory.java:134)
+	at com.mks.api.response.APIExceptionFactory.createAPIException(APIExceptionFactory.java:80)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:317)
+	at com.mks.connect.AbstractCmdRunner.executeCommand(AbstractCmdRunner.java:242)
+	at com.mks.connect.AbstractCmdRunner.execute(AbstractCmdRunner.java:394)
+	at com.smartbear.scm.impl.mks.MksCommand.execute(MksCommand.java:110)
+	... 10 more

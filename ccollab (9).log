@@ -1,0 +1,847 @@
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Collaborator Enterprise version 14.5.14501
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Build Number:14.5.14501.376
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+VM Max Memory: 8501854208
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+VM Current Memory: 532676608
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Logging System Properties
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  awt.toolkit:  sun.awt.windows.WToolkit
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.version:  11
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.launcherId:  190
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.cpu.isalist:  amd64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.jnu.encoding:  Cp1252
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.nl:  en_US
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.syspath:  c:\d\0.install\Collaborator Client\ui\plugins
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.arch.data.model:  64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  equinox.init.uuid:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ds.delayed.keepInstances.default:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.url:  https://openlogic.com/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.system.capabilities:  osgi.ee; osgi.ee="OSGi/Minimum"; version:List<Version>="1.0, 1.1, 1.2", osgi.ee; osgi.ee="JRE"; version:List<Version>="1.0, 1.1", osgi.ee; osgi.ee="JavaSE"; version:List<Version>="1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact1"; version:List<Version>="1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact2"; version:List<Version>="1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact3"; version:List<Version>="1.8, 9.0, 10.0, 11.0"
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.boot.library.path:  c:\program files\openlogic\jdk-11.0.22.7-hotspot\bin
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.java.command:  C:\d\0.install\Collaborator Client\ccollabgui.exe
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  jdk.debug:  release
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.requirebundle:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.unextractedPosition:  0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.arch:  x86_64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.eclipse.equinox.simpleconfigurator.configUrl:  file:org.eclipse.equinox.simpleconfigurator/bundles.info
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.vendor:  Oracle Corporation
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.language:  en
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.system.packages:  com.sun.jarsigner, com.sun.java.accessibility.util, com.sun.javadoc, com.sun.jdi, com.sun.jdi.connect, com.sun.jdi.connect.spi, com.sun.jdi.event, com.sun.jdi.request, com.sun.jndi.ldap.spi, com.sun.management, com.sun.net.httpserver, com.sun.net.httpserver.spi, com.sun.nio.file, com.sun.nio.sctp, com.sun.security.auth, com.sun.security.auth.callback, com.sun.security.auth.login, com.sun.security.auth.module, com.sun.security.jgss, com.sun.source.doctree, com.sun.source.tree, com.sun.source.util, com.sun.tools.attach, com.sun.tools.attach.spi, com.sun.tools.javac, com.sun.tools.javadoc, com.sun.tools.jconsole, java.applet, java.awt, java.awt.color, java.awt.datatransfer, java.awt.desktop, java.awt.dnd, java.awt.event, java.awt.font, java.awt.geom, java.awt.im, java.awt.im.spi, java.awt.image, java.awt.image.renderable, java.awt.print, java.beans, java.beans.beancontext, java.io, java.lang, java.lang.annotation, java.lang.instrument, java.lang.invoke, java.lang.management, java.lang.module, java.lang.ref, java.lang.reflect, java.math, java.net, java.net.http, java.net.spi, java.nio, java.nio.channels, java.nio.channels.spi, java.nio.charset, java.nio.charset.spi, java.nio.file, java.nio.file.attribute, java.nio.file.spi, java.rmi, java.rmi.activation, java.rmi.dgc, java.rmi.registry, java.rmi.server, java.security, java.security.acl, java.security.cert, java.security.interfaces, java.security.spec, java.sql, java.text, java.text.spi, java.time, java.time.chrono, java.time.format, java.time.temporal, java.time.zone, java.util, java.util.concurrent, java.util.concurrent.atomic, java.util.concurrent.locks, java.util.function, java.util.jar, java.util.logging, java.util.prefs, java.util.regex, java.util.spi, java.util.stream, java.util.zip, javafx.animation, javafx.application, javafx.beans, javafx.beans.binding, javafx.beans.property, javafx.beans.property.adapter, javafx.beans.value, javafx.collections, javafx.collections.transformation, javafx.concurrent, javafx.css, javafx.css.converter, javafx.embed.swing, javafx.event, javafx.fxml, javafx.geometry, javafx.print, javafx.scene, javafx.scene.canvas, javafx.scene.chart, javafx.scene.control, javafx.scene.control.cell, javafx.scene.control.skin, javafx.scene.effect, javafx.scene.image, javafx.scene.input, javafx.scene.layout, javafx.scene.media, javafx.scene.paint, javafx.scene.robot, javafx.scene.shape, javafx.scene.text, javafx.scene.transform, javafx.scene.web, javafx.stage, javafx.util, javafx.util.converter, javax.accessibility, javax.annotation.processing, javax.crypto, javax.crypto.interfaces, javax.crypto.spec, javax.imageio, javax.imageio.event, javax.imageio.metadata, javax.imageio.plugins.bmp, javax.imageio.plugins.jpeg, javax.imageio.plugins.tiff, javax.imageio.spi, javax.imageio.stream, javax.lang.model, javax.lang.model.element, javax.lang.model.type, javax.lang.model.util, javax.management, javax.management.loading, javax.management.modelmbean, javax.management.monitor, javax.management.openmbean, javax.management.relation, javax.management.remote, javax.management.remote.rmi, javax.management.timer, javax.naming, javax.naming.directory, javax.naming.event, javax.naming.ldap, javax.naming.spi, javax.net, javax.net.ssl, javax.print, javax.print.attribute, javax.print.attribute.standard, javax.print.event, javax.rmi.ssl, javax.script, javax.security.auth, javax.security.auth.callback, javax.security.auth.kerberos, javax.security.auth.login, javax.security.auth.spi, javax.security.auth.x500, javax.security.cert, javax.security.sasl, javax.smartcardio, javax.sound.midi, javax.sound.midi.spi, javax.sound.sampled, javax.sound.sampled.spi, javax.sql, javax.sql.rowset, javax.sql.rowset.serial, javax.sql.rowset.spi, javax.swing, javax.swing.border, javax.swing.colorchooser, javax.swing.event, javax.swing.filechooser, javax.swing.plaf, javax.swing.plaf.basic, javax.swing.plaf.metal, javax.swing.plaf.multi, javax.swing.plaf.nimbus, javax.swing.plaf.synth, javax.swing.table, javax.swing.text, javax.swing.text.html, javax.swing.text.html.parser, javax.swing.text.rtf, javax.swing.tree, javax.swing.undo, javax.tools, javax.transaction.xa, javax.xml, javax.xml.catalog, javax.xml.crypto, javax.xml.crypto.dom, javax.xml.crypto.dsig, javax.xml.crypto.dsig.dom, javax.xml.crypto.dsig.keyinfo, javax.xml.crypto.dsig.spec, javax.xml.datatype, javax.xml.namespace, javax.xml.parsers, javax.xml.stream, javax.xml.stream.events, javax.xml.stream.util, javax.xml.transform, javax.xml.transform.dom, javax.xml.transform.sax, javax.xml.transform.stax, javax.xml.transform.stream, javax.xml.validation, javax.xml.xpath, jdk.dynalink, jdk.dynalink.beans, jdk.dynalink.linker, jdk.dynalink.linker.support, jdk.dynalink.support, jdk.javadoc.doclet, jdk.jfr, jdk.jfr.consumer, jdk.jshell, jdk.jshell.execution, jdk.jshell.spi, jdk.jshell.tool, jdk.management.jfr, jdk.nashorn.api.scripting, jdk.nashorn.api.tree, jdk.net, jdk.nio, jdk.security.jarsigner, jdk.swing.interop, netscape.javascript, org.ietf.jgss, org.w3c.dom, org.w3c.dom.bootstrap, org.w3c.dom.css, org.w3c.dom.events, org.w3c.dom.html, org.w3c.dom.ls, org.w3c.dom.ranges, org.w3c.dom.stylesheets, org.w3c.dom.traversal, org.w3c.dom.views, org.w3c.dom.xpath, org.xml.sax, org.xml.sax.ext, org.xml.sax.helpers, sun.misc, sun.reflect
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.application:  com.smartbear.collaborator.ui.standalone.CollabGUIApp
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  gosh.args:  --nointeractive
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.version.date:  2024-01-16
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.home:  c:\program files\openlogic\jdk-11.0.22.7-hotspot
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  file.separator:  \
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.compressedOopsMode:  Zero based
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  line.separator:  
+
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.executionenvironment:  OSGi/Minimum-1.0, OSGi/Minimum-1.1, OSGi/Minimum-1.2, JavaSE/compact1-1.8, JavaSE/compact2-1.8, JavaSE/compact3-1.8, JRE-1.1, J2SE-1.2, J2SE-1.3, J2SE-1.4, J2SE-1.5, JavaSE-1.6, JavaSE-1.7, JavaSE-1.8, JavaSE-9, JavaSE-10, JavaSE-11
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.name:  Java Platform API Specification
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.vendor:  Oracle Corporation
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.compatibility.bootdelegation.default:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.moduleName:  C:\d\0.install\Collaborator Client\ccollabgui.exe
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.script:  
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.util.logging.config.file:  C:\d\0.install\Collaborator Client\/ccollab.logging.properties
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.management.compiler:  HotSpot 64-Bit Tiered Compilers
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.runtime.version:  11.0.22+7-adhoc..jdk11u
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.eclipse.swt.internal.deviceZoom:  100
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.name:  VV00812223
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework.useSystemProperties:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.vendor:  Eclipse
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  file.encoding:  Cp1252
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.version:  OpenLogic-OpenJDK
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.semaphoreName:  Local\c:_d_0.install_collaborator_client_ccollabgui.exe0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.io.tmpdir:  C:\Users\VV0081~1\AppData\Local\Temp\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.home.location:  file:/C:/d/0.install/Collaborator Client/ui/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.version:  11.0.22
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.bundles.defaultStartLevel:  4
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.name:  Java Virtual Machine Specification
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.awt.printerjob:  sun.awt.windows.WPrinterJob
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.os.patch.level:  
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.configuration.cascaded:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.library.path:  c:\program files\openlogic\jdk-11.0.22.7-hotspot\bin;C:\Program Files\OpenLogic\jdk-11.0.22.7-hotspot\bin;C:\Program Files\PTC\RVS\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\PROGRA~1\PTC\Toolkit\mksnt;C:\Program Files\AbsInt\Common\bin;C:\d\tools\TortoiseSVN\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\openJDK_jre1.8.0_392\bin;C:\Program Files (x86)\Java\openJDK_jre1.8.0_392\bin;C:\Program Files\PuTTY\;C:\d\0.install\apache-ant-1.10.14\bin;C:\d\tools\pre_inst\Python\WinPython_3.6\python-3.6.1.amd64;C:\Users\vv00812223\AppData\Local\Microsoft\WindowsApps;C:\d\Tools\pre_inst\Python\WinPython_3.6\python-3.6.1.amd64\;C:\Users\vv00812223\AppData\Local\Programs\Microsoft VS Code\bin;C:\d\0.install\Collaborator Client
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor:  OpenLogic
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.maintenance.version:  2
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.io.unicode.encoding:  UnicodeLittle
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.stateSaveDelayInterval:  30000
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.swt:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.desktop:  windows
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.version:  1.9.0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.class.path:  C:\d\0.install\Collaborator Client\.install4j\i4jruntime.jar;C:\d\0.install\Collaborator Client\.\lib\activation-1.1.1.jar;C:\d\0.install\Collaborator Client\.\lib\collab-cmdline-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\lib\collab-code-analysis-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\lib\commons-cli-2.0.553540.jar;C:\d\0.install\Collaborator Client\.\lib\gwt-user-2.8.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\animal-sniffer-annotations-1.14.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\annotation-indexer-1.12.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\ant-1.6.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\apache-el-8.5.54.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\apache-jsp-8.5.54.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\apache-jsp-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-9.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-all-5.0.4.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-analysis-9.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-commons-9.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-tree-9.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\asm-util-5.0.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\bndlib-2.3.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\bridge-method-annotation-1.14.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cdi-api-2.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-client-common-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-code-analysis-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-common-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-datamodel-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-scm-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collab-service-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collaborator-common-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\collaborator-json-api-14.5.14501.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\colt-1.2.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.filesystem.client-3.2.900.v20170426_1705.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.filesystem.common-3.2.900.v20170417_1239.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.foundation.common-1.3.4000.v20170324_0113.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.process.client-1.3.3000.v20170407_1725.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.process.common-1.3.4000.v20170429_0036.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.repository.client-1.3.3000.v20170317_2133.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.repository.common-1.4.4000.v20170503_1641.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.scm.client-3.2.900.v20170424_1700.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.scm.common-3.2.900.v20170424_1642.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.workitem.client-3.1.1600.v20170112_0127.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\com.ibm.team.workitem.common-3.2.800.v20170420_1657.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-beanutils-1.9.4.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-codec-1.11.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-collections-3.2.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-collections4-4.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-io-2.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-lang-2.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-lang3-3.9.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-logging-1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-net-3.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\commons-text-1.8.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-core-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-bindings-soap-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-bindings-xml-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-databinding-jaxb-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-frontend-jaxws-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-frontend-simple-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-transports-http-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-ws-addr-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-ws-policy-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\cxf-rt-wsdl-3.5.6.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\dd-trace-api-1.15.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\dec-0.1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\ecj-3.19.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\error_prone_annotations-2.0.18.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\fontbox-2.0.24.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\geronimo-ws-metadata_2.0_spec-1.1.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\github-api-1.73.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\groovy-all-2.3.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\gson-2.6.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\guava-23.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\gwt-dev-2.8.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\gwt-user-2.8.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\htmlunit-2.37.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\htmlunit-core-js-2.37.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\htmlunit-cssparser-1.5.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\httpclient-4.5.14.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\httpcore-4.4.16.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\httpmime-4.5.14.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\ical4j-2.0.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\icu4j-50.1.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\istack-commons-runtime-3.0.12.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\j2objc-annotations-1.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jackson-annotations-2.14.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jackson-core-2.14.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jackson-databind-2.14.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jackson-module-mrbean-2.14.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jakarta.activation-1.2.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jakarta.activation-api-1.2.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jakarta.xml.bind-api-2.3.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\java-gitlab-api-4.0.1.smartbear.8.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javassist-3.18.1-GA.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.activation-api-1.2.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.annotation-api-1.3.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.el-api-3.0.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.inject-1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.interceptor-api-1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.servlet-api-3.1.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\javax.xml.soap-api-1.4.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jaxb-api-2.3.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jaxb-runtime-2.3.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jaxws-api-2.3.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-annotations-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-client-9.4.26.v20200117.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-continuation-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-http-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-io-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-jndi-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-plus-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-schemas-3.1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-security-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-server-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-servlet-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-servlets-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-util-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-util-ajax-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-webapp-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jetty-xml-9.4.41.v20210516.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jsinterop-annotations-1.0.2-sources.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jsinterop-annotations-1.0.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\json-20090211.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\json-simple-1.1.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jsr173-1.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jsr305-3.0.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\junit-3.8.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\jzlib-1.1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\markdownj-core-0.4.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\mixpanel-java-1.4.4.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\mksapi-jar-4.13.5479.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\msgpack-0.6.11.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\neethi-3.2.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\neko-htmlunit-2.37.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\okhttp-2.7.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\okhttp-urlconnection-2.7.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\okio-1.6.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\org.eclipse.equinox.common-3.10.300.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\org.eclipse.osgi-3.18.500-custom.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\org.osgi.core-4.3.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\p4java-2014.1.965322.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\pdfbox-2.0.24.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\sac-1.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\serializer-2.7.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\slf4j-api-1.7.10.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\stax2-api-4.2.1.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\super-csv-2.3.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\svn-javahl-api-1.6.18-v2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\tapestry-4.0.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\txw2-2.3.5.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\validation-api-1.0.0.GA-sources.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\validation-api-1.0.0.GA.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\vault_client_api-1.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\websocket-api-9.4.26.v20200117.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\websocket-client-9.4.26.v20200117.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\websocket-common-9.4.26.v20200117.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\woodstox-core-6.4.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\ws-commons-util-1.0.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\wsdl4j-1.6.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xalan-2.7.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xercesImpl-2.12.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xml-apis-1.4.01.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xml-resolver-1.2.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xmlrpc-client-3.1.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xmlrpc-common-3.1.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xmlrpc-server-3.1.3.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\xmlschema-core-2.3.0.jar;C:\d\0.install\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.5.14501\zzz-com.microsoft.tfs.sdk-11.0.0-custom.jar
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.vendor:  OpenLogic
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.exeDir:  C:\d\0.install\Collaborator Client\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.variant:  
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.timezone:  Europe/Budapest
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.uuid:  f288d059-e75f-4e8e-8eb8-e01b01b4fb3a
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.name:  Windows 10
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.version:  11
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.processor:  x86-64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.country:  US
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  collab.install.dir:  C:\d\0.install\Collaborator Client\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.cpu.endian:  little
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.logfile:  C:\Users\vv00812223\.smartbear\instance\.metadata\.log
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.home:  C:\Users\vv00812223
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.install.area:  file:/C:/d/0.install/Collaborator Client/ui/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.language:  en
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.user.area:  file:/C:/Users/vv00812223/.smartbear/user/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.tracefile:  C:\Users\vv00812223\.smartbear\instance\.metadata\trace.log
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.awt.graphicsenv:  sun.awt.Win32GraphicsEnvironment
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ds.delayed.keepInstances:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.tempDir:  
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.consoleCodepage:  cp0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.isInstall4j:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.commands:  
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.sharedConfiguration.area.readOnly:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  path.separator:  ;
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.compatibility.bootdelegation:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.version:  10.0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.runtime.name:  OpenJDK Runtime Environment
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.fragment:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.bundles:  org.eclipse.equinox.simpleconfigurator@1:start,org.eclipse.equinox.common@2:start,org.eclipse.update.configurator@3:start,org.eclipse.core.runtime@start
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework.shape:  jar
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.name:  OpenJDK 64-Bit Server VM
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework:  file:/C:/d/0.install/Collaborator Client/ui/plugins/org.eclipse.osgi_3.15.300.v20200520-1959.jar
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.configuration.area:  file:/C:/Users/vv00812223/.smartbear/configuration/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  com.microsoft.tfs.jni.native.base-directory:  C:\d\0.install\Collaborator Client\/ui/plugins/com.smartbear.collaborator_14.5.14501/libs/native
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.appDir:  C:\d\0.install\Collaborator Client\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.os:  win32
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.url.bug:  https://techsupport.roguewave.com/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.os.name:  Windows10
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.extension:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.storage:  C:\Users\vv00812223\.smartbear\configuration
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.dir:  C:\d\0.install\Collaborator Client
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.arch:  amd64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.sharedConfiguration.area:  file:/C:/d/0.install/Collaborator Client/ui/configuration/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.ws:  win32
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.instance.area:  file:/C:/Users/vv00812223/.smartbear/instance/
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.startTime:  1709741898318
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.os.version:  10.0.0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.info:  mixed mode
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.version:  11.0.22+7-adhoc..jdk11u
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.class.version:  55.0
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.launchName:  C:\d\0.install\Collaborator Client\ccollabgui.exe
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Logging environment variables.
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDOMAIN_ROAMINGPROFILE:  DOMFGDVB
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_LEVEL:  6
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  DRAWIO_DISABLE_UPDATE:  true
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  MGLS_LICENSE_FILE:  27005@srvvib346
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SESSIONNAME:  Console
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ALLUSERSPROFILE:  C:\ProgramData
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_ARCHITECTURE:  AMD64
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PSModulePath:  C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SystemDrive:  C:
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERNAME:  VV00812223
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDNSDOMAIN:  INTERNAL.DRAEXLMAIER.COM
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  COSMIC_LICENSE_FILE:  28004@SRVVIB312
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramFiles(x86):  C:\Program Files (x86)
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TELELOGIC_LICENSE_FILE:  27016@SRVVIB346
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  MAN_TXT_INDEX:  C:/PROGRA~1/PTC/Toolkit/etc/tkutil.idx;C:/PROGRA~1/PTC/Toolkit/etc/tkapi.idx;C:/PROGRA~1/PTC/Toolkit/etc/tcltk.idx;C:/PROGRA~1/PTC/Toolkit/etc/tkcurses.idx;C:/Program Files/PTC/RVS/etc/isman.idx
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PATHEXT:  .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.sh;.ksh;.csh;.sed;.awk;.pl
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  DriverData:  C:\Windows\System32\Drivers\DriverData
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SSF_LIBRARY_PATH_64:  C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SSF_LIBRARY_PATH:  C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TMPDIR:  C:/Users/VV0081~1/AppData/Local/Temp
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramData:  C:\ProgramData
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramW6432:  C:\Program Files
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HOMEPATH:  \Users\vv00812223
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_IDENTIFIER:  Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramFiles:  C:\Program Files
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PUBLIC:  C:\Users\Public
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  windir:  C:\windows
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  =:::  ::\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HTC_LICENSES:  C:\d\Tools\HighTec\licenses
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ZES_ENABLE_SYSMAN:  1
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  MAN_CHM_INDEX:  C:/PROGRA~1/PTC/Toolkit/etc/chm/tkutil.idx;C:/PROGRA~1/PTC/Toolkit/etc/chm/tkapi.idx;C:/PROGRA~1/PTC/Toolkit/etc/chm/tcltk.idx;C:/PROGRA~1/PTC/Toolkit/etc/chm/tkcurses.idx;C:/Program Files/PTC/RVS/etc/isman.idx
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OneDriveCommercial:  C:\Users\vv00812223\OneDrive - DRAEXLMAIER
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  LOCALAPPDATA:  C:\Users\vv00812223\AppData\Local
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ROOTDIR:  C:/PROGRA~1/PTC/Toolkit
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDOMAIN:  DOMFGDVB
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  LOGONSERVER:  \\DCIPIT02
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  JAVA_HOME:  C:\Program Files\OpenLogic\jdk-11.0.22.7-hotspot\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  LDMS_LOCAL_DIR:  C:\Program Files (x86)\LANDesk\LDClient\Data
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SAPLOGON_LSXML_FILE:  \\internal.draexlmaier.com\drx$\DRXProgramme\SAPUILandscape\SAPUILandscapeGlobal.xml
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ANT_HOME:  C:\d\0.install\apache-ant-1.10.14
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OneDrive:  C:\Users\vv00812223\OneDrive - DRAEXLMAIER
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  APPDATA:  C:\Users\vv00812223\AppData\Roaming
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  WRSD_LICENSE_FILE:  27018@SRVVIB346
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  RLM_LICENSE:  c:\d\Tools\HighTec\licenses;5053@SRVVIB438
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SNC_LIB_2:  C:\windows\system32\gsskrb5.dll
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CANoe_InstallDir:  c:\d\tools\canoe\11.0_64bit\Exec64\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramFiles:  C:\Program Files\Common Files
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  Path:  c:\program files\openlogic\jdk-11.0.22.7-hotspot\bin;C:\Program Files\OpenLogic\jdk-11.0.22.7-hotspot\bin;C:\Program Files\PTC\RVS\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\PROGRA~1\PTC\Toolkit\mksnt;C:\Program Files\AbsInt\Common\bin;C:\d\tools\TortoiseSVN\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\openJDK_jre1.8.0_392\bin;C:\Program Files (x86)\Java\openJDK_jre1.8.0_392\bin;C:\Program Files\PuTTY\;C:\d\0.install\apache-ant-1.10.14\bin;C:\d\tools\pre_inst\Python\WinPython_3.6\python-3.6.1.amd64;C:\Users\vv00812223\AppData\Local\Microsoft\WindowsApps;C:\d\Tools\pre_inst\Python\WinPython_3.6\python-3.6.1.amd64\;C:\Users\vv00812223\AppData\Local\Programs\Microsoft VS Code\bin;C:\d\0.install\Collaborator Client
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OS:  Windows_NT
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  COMPUTERNAME:  N044155
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PICO_DRIVER:  c:\Program Files\Vector_CANoe_CANalyzer_Scope\Drivers
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_REVISION:  8d01
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramW6432:  C:\Program Files\Common Files
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  XDG_CONFIG_HOME:  C:\ProgramData\Java\webstart
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ComSpec:  C:\windows\system32\cmd.exe
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SNC_LIB_64:  C:\Program Files\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SystemRoot:  C:\windows
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TEMP:  C:\Users\VV0081~1\AppData\Local\Temp
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HOMEDRIVE:  C:
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SNC_LIB:  C:\Program Files (x86)\SAP\FrontEnd\SecureLogin\lib\sapcrypto.dll
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERPROFILE:  C:\Users\vv00812223
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CANoe_InstallDir64:  c:\d\tools\canoe\11.0_64bit\Exec64\
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TMP:  C:\Users\VV0081~1\AppData\Local\Temp
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramFiles(x86):  C:\Program Files (x86)\Common Files
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  NUMBER_OF_PROCESSORS:  16
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  MAN_HTM_PATHS:  C:/PROGRA~1/PTC/Toolkit/etc/htm/perl;C:/PROGRA~1/PTC/Toolkit/etc/htm/perl/pod;C:/PROGRA~1/PTC/Toolkit/etc/htm/perl/ext;C:/PROGRA~1/PTC/Toolkit/etc/htm/perl/lib
+DEBUG: Wed Mar 06 17:18:26 CET 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HOME:  C:\Users\vv00812223
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'externaldiffsinglefilecommand' = 'null' from config file
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'externaldiffsinglefilecommandargs' = 'null' from config file
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'externaldiffmultiplefilescommand' = 'null' from config file
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'externaldiffmultiplefilescommandargs' = 'null' from config file
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:38 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'openreviewinbrowser' = 'true' from config file
+DEBUG: Wed Mar 06 17:18:58 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:18:58 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:18:58 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:18:58 CET 2024: com.smartbear.beans.ConfigUtils
+Loaded 'clientguid' = 'e9df1be149318f860cb17f9d11a12375' from config file
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {s}->https://codecollaborator.embswdev.draexlmaier.services:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 0][route: {s}->https://codecollaborator.embswdev.draexlmaier.services:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {s}->https://codecollaborator.embswdev.draexlmaier.services:443
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.embswdev.draexlmaier.services/51.144.59.192:443
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.conn.ssl.SSLConnectionSocketFactory
+Connecting socket to codecollaborator.embswdev.draexlmaier.services/51.144.59.192:443 with timeout 1000000
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.conn.ssl.SSLConnectionSocketFactory
+Enabled protocols: [TLSv1.3]
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.conn.ssl.SSLConnectionSocketFactory
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.conn.ssl.SSLConnectionSocketFactory
+Starting handshake
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-0: Shutdown connection
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.execchain.MainClientExec
+Connection discarded
+DEBUG: Wed Mar 06 17:18:59 CET 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 0][route: {s}->https://codecollaborator.embswdev.draexlmaier.services:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+ERROR: Wed Mar 06 17:18:59 CET 2024: com.smartbear.collaborator.ui
+Could not verify connection to Collaborator Enterprise Server
+com.smartbear.ccollab.client.CollabClientServerConnectivityException: Unexpected Error: Collaborator server cannot be reached. Server Connection is closed or wrong host URL.codecollaborator.embswdev.draexlmaier.services
+	at com.smartbear.ccollab.client.LoginUtils.establishJsonConnection(LoginUtils.java:272)
+	at com.smartbear.ccollab.client.LoginUtils.jsonLogin(LoginUtils.java:294)
+	at com.smartbear.collaborator.Collaborator.testClientConnection(Collaborator.java:114)
+	at com.smartbear.collaborator.ui.preferences.ServerConnectionPage$1$1.run(ServerConnectionPage.java:173)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: com.smartbear.collaborator.client.exceptions.CollabClientException: java.io.IOException: Received fatal alert: handshake_failure
+	at com.smartbear.collaborator.json.api.AbstractApi.sendBatch(AbstractApi.java:99)
+	at com.smartbear.collaborator.json.api.ServerInfoApi.getServerBuild(ServerInfoApi.java:40)
+	at com.smartbear.ccollab.client.LoginUtils.jsonCheckServerBuild(LoginUtils.java:174)
+	at com.smartbear.ccollab.client.LoginUtils.establishJsonConnection(LoginUtils.java:198)
+	... 4 more
+Caused by: java.io.IOException: Received fatal alert: handshake_failure
+	at com.smartbear.collaborator.client.CollabHttpClient.execute(CollabHttpClient.java:174)
+	at com.smartbear.collaborator.json.utils.BatchRequest.getJsonResult(BatchRequest.java:273)
+	at com.smartbear.collaborator.json.utils.BatchRequest.post(BatchRequest.java:214)
+	at com.smartbear.collaborator.json.utils.BatchRequest.send(BatchRequest.java:195)
+	at com.smartbear.collaborator.json.api.AbstractApi.sendBatch(AbstractApi.java:95)
+	... 7 more
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:347)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:293)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:186)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1511)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:456)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:427)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:436)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:384)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.smartbear.collaborator.client.CollabHttpClient.execute(CollabHttpClient.java:168)
+	... 11 more
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+Setting default value: false
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+Converting 'Boolean' value 'false' to type 'Boolean'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+    No conversion required, value is already a Boolean
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+Converting 'Integer' value '0' to type 'Byte'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+    Converted to Byte value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+Setting default value:  
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+Converting 'Character' value ' ' to type 'Character'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+    No conversion required, value is already a Character
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+Converting 'Integer' value '0' to type 'Double'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+    Converted to Double value '0.0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+Converting 'Integer' value '0' to type 'Float'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+    Converted to Float value '0.0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+Converting 'Integer' value '0' to type 'Integer'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+    No conversion required, value is already a Integer
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+Converting 'Integer' value '0' to type 'Long'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+    Converted to Long value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+Converting 'Integer' value '0' to type 'Short'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+    Converted to Short value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigDecimalConverter
+Setting default value: 0.0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigDecimalConverter
+Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigDecimalConverter
+    No conversion required, value is already a BigDecimal
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigIntegerConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigIntegerConverter
+Converting 'BigInteger' value '0' to type 'BigInteger'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BigIntegerConverter
+    No conversion required, value is already a BigInteger
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+Setting default value: false
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+Converting 'Boolean' value 'false' to type 'Boolean'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.BooleanConverter
+    No conversion required, value is already a Boolean
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+Converting 'Integer' value '0' to type 'Byte'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ByteConverter
+    Converted to Byte value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+Setting default value:  
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+Converting 'Character' value ' ' to type 'Character'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.CharacterConverter
+    No conversion required, value is already a Character
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+Converting 'Integer' value '0' to type 'Double'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.DoubleConverter
+    Converted to Double value '0.0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+Converting 'Integer' value '0' to type 'Float'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.FloatConverter
+    Converted to Float value '0.0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+Converting 'Integer' value '0' to type 'Integer'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.IntegerConverter
+    No conversion required, value is already a Integer
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+Converting 'Integer' value '0' to type 'Long'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.LongConverter
+    Converted to Long value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+Setting default value: 0
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+Converting 'Integer' value '0' to type 'Short'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ShortConverter
+    Converted to Short value '0'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.StringConverter
+Setting default value: 
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.StringConverter
+Converting 'String' value '' to type 'String'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Z@3c854752
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'boolean[]' value '[Z@3c854752' to type 'boolean[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a boolean[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [B@3ddeaa5f
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'byte[]' value '[B@3ddeaa5f' to type 'byte[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a byte[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [C@1a500561
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'char[]' value '[C@1a500561' to type 'char[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a char[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [D@7f608e21
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'double[]' value '[D@7f608e21' to type 'double[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a double[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [F@6949e948
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'float[]' value '[F@6949e948' to type 'float[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a float[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [I@210d2a6c
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'int[]' value '[I@210d2a6c' to type 'int[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a int[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [J@3bec5821
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'long[]' value '[J@3bec5821' to type 'long[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a long[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [S@4086d8fb
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'short[]' value '[S@4086d8fb' to type 'short[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a short[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.math.BigDecimal;@66236a0a
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@66236a0a' to type 'BigDecimal[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a BigDecimal[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.math.BigInteger;@2e3572e8
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@2e3572e8' to type 'BigInteger[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a BigInteger[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Boolean;@77c10a5f
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Boolean[]' value '[Ljava.lang.Boolean;@77c10a5f' to type 'Boolean[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Boolean[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Byte;@176555c
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Byte[]' value '[Ljava.lang.Byte;@176555c' to type 'Byte[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Byte[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Character;@7c781c42
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Character[]' value '[Ljava.lang.Character;@7c781c42' to type 'Character[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Character[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Double;@795f8317
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Double[]' value '[Ljava.lang.Double;@795f8317' to type 'Double[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Double[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Float;@633fd91
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Float[]' value '[Ljava.lang.Float;@633fd91' to type 'Float[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Float[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Integer;@355c94be
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Integer[]' value '[Ljava.lang.Integer;@355c94be' to type 'Integer[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Integer[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Long;@97a145b
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Long[]' value '[Ljava.lang.Long;@97a145b' to type 'Long[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Long[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Short;@c386958
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Short[]' value '[Ljava.lang.Short;@c386958' to type 'Short[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Short[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.String;@157ec23b
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'String[]' value '[Ljava.lang.String;@157ec23b' to type 'String[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a String[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.lang.Class;@44d64d4e
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Class[]' value '[Ljava.lang.Class;@44d64d4e' to type 'Class[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Class[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.util.Date;@1dd74143
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Date[]' value '[Ljava.util.Date;@1dd74143' to type 'Date[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Date[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.util.Calendar;@526a9908
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'Calendar[]' value '[Ljava.util.Calendar;@526a9908' to type 'Calendar[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a Calendar[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.io.File;@3166f664
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'java.io.File[]' value '[Ljava.io.File;@3166f664' to type 'java.io.File[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a java.io.File[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.sql.Date;@47ac613b
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@47ac613b' to type 'java.sql.Date[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a java.sql.Date[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.sql.Time;@60d6fdd4
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@60d6fdd4' to type 'java.sql.Time[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a java.sql.Time[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.sql.Timestamp;@66f28a1f
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@66f28a1f' to type 'java.sql.Timestamp[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a java.sql.Timestamp[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Setting default value: [Ljava.net.URL;@60a19573
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+Converting 'java.net.URL[]' value '[Ljava.net.URL;@60a19573' to type 'java.net.URL[]'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.ArrayConverter
+    No conversion required, value is already a java.net.URL[]
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.ConvertUtils
+Convert string 'https://codecollaborator.embswdev.draexlmaier.services' to class 'java.net.URL'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+saving config key='url' value='https://codecollaborator.embswdev.draexlmaier.services'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+loaded config file C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  clientguid:  e9df1be149318f860cb17f9d11a12375
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  openreviewinbrowser:  true
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  url:  https://codecollaborator.embswdev.draexlmaier.services/
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  guishutdownport:  51444
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  traynotifiershutdownport:  -1
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  user:  Velisa.Velovic@draexlmaier.com
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+Saved config file C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  clientguid:  e9df1be149318f860cb17f9d11a12375
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  guishutdownport:  51444
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  openreviewinbrowser:  true
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  traynotifiershutdownport:  -1
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  user:  Velisa.Velovic@draexlmaier.com
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  url:  https://codecollaborator.embswdev.draexlmaier.services
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.ConvertUtils
+Convert string 'Velisa.Velovic@draexlmaier.com' to class 'java.lang.String'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: org.apache.commons.beanutils.converters.StringConverter
+Converting 'String' value 'Velisa.Velovic@draexlmaier.com' to type 'String'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+saving config key='user' value='Velisa.Velovic@draexlmaier.com'
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+loaded config file C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  clientguid:  e9df1be149318f860cb17f9d11a12375
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  openreviewinbrowser:  true
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  url:  https://codecollaborator.embswdev.draexlmaier.services
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  guishutdownport:  51444
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  traynotifiershutdownport:  -1
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  user:  Velisa.Velovic@draexlmaier.com
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+Saved config file C:\Users\vv00812223\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Wed Mar 06 17:19:09 CET 2024: com.smartbear.beans.ConfigUtils
+  clientguid:  e9df1be149318f860cb17f9d11a12375
+DEBUG: Wed Mar 06 17:19:10 CET 2024: com.smartbear.beans.ConfigUtils
+  guishutdownport:  51444
+DEBUG: Wed Mar 06 17:19:10 CET 2024: com.smartbear.beans.ConfigUtils
+  openreviewinbrowser:  true
+DEBUG: Wed Mar 06 17:19:10 CET 2024: com.smartbear.beans.ConfigUtils
+  traynotifiershutdownport:  -1
+DEBUG: Wed Mar 06 17:19:10 CET 2024: com.smartbear.beans.ConfigUtils
+  user:  Velisa.Velovic@draexlmaier.com
+DEBUG: Wed Mar 06 17:19:10 CET 2024: com.smartbear.beans.ConfigUtils
+  url:  https://codecollaborator.embswdev.draexlmaier.services
