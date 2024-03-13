@@ -1,0 +1,144 @@
+Hi Sambasiva,
+
+
+
+As discussed, this license was renewed in Aug 2023, by Michael Meyers. Below is the trail mail.. it should have validity until Aug 24. Kindly check.
+
+
+
+Regards,
+
+Shyni
+
+
+
+From: Michael Meyers <michael.meyers@mozarcmedical.com>
+Sent: Tuesday, August 29, 2023 7:20 PM
+To: Menon, Shyni <shyni.menon@medtronic.com>; A, Bindhu <bindhu.a@medtronic.com>
+Subject: [EXTERNAL] FW: Collaborator Purchase
+
+
+
+Please forward below to the right parties
+
+Thanks
+
+
+
+
+
+Michael J Meyers
+Senior Buyer/Planner
+
+michael.meyers@mozarcmedical.com<mailto:michael.meyers@mozarcmedical.com>
+
+Cell Phone 478-304-2001
+
+
+
+
+
+
+
+From: Mark Guy <Mark.Guy@smartbear.com<mailto:Mark.Guy@smartbear.com>>
+Sent: Tuesday, August 29, 2023 9:44 AM
+To: Michael Meyers <michael.meyers@mozarcmedical.com<mailto:michael.meyers@mozarcmedical.com>>
+Subject: Collaborator Purchase
+
+
+
+
+
+ <http://www2.smartbear.com/rs/smartbear/images/spacer2.gif>
+
+
+
+ <http://www2.smartbear.com/rs/800-TIV-782/images/SB_Logo_Horizontal_CLR_RGB_309x40.png>
+
+Hi Michael,
+Thank you for purchasing Collaborator!
+
+Here at SmartBear, we’re passionate about empowering you to create great software, faster. Our product portfolio includes solutions that span the entire software development lifecycle, making the design, development, testing, and monitoring of applications easier for software teams.
+
+If you’re interested in learning more, check out our full product portfolio here<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___https:/smartbear.com/product/?utm_source=nurture&utm_medium=email___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6ZDczNDoyYmVjNmM5Njc3MTcyNmVmMDZiYmUyZWY3M2QxNjk5ZGFiYzZlODUzYWJiZjJiN2U4NzBjYzlkY2ZlODAwMGQwOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzPP1-JhU$>.
+
+Now, onto the details of your purchase:
+
+License Name
+
+Node ID
+
+Number of Licenses
+
+Company Key
+
+License Code
+
+Collaborator
+
+4F850921
+
+20
+
+MDM*00062024
+
+C690-45A0-944C-1ABE-5942-041F-E4DF-CF31
+
+
+
+Getting Started With Collaborator
+
+
+
+Step 1: Activate Your License
+
+Enter the above license code in the “Admin” section, under the configuration tab. See the full process, outlined in the Getting Started for Administrators guide<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___https:/support.smartbear.com/collaborator/docs/tutorials/admin-guide.html___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6ZDQ2MzplNDEwZDk2NDM0MjFhMDc1MDcxMDAxZDhhYjBkYzk4OWZlNTVhNDZkNGJhN2Q0ZDg0MmVhZWZmYjM2NzEzNmI2Omg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzBFMqZyM$>.
+
+
+
+Step 2: Attend a Best Practices Session
+
+If they haven’t already, your account executive will be reaching out to schedule a quick call so that we can answer any configuration questions and show you the features in Collaborator that will be most helpful to your team.
+
+
+
+Step 3: Get Your Team Trained
+
+We want to make sure Collaborator makes an impact on your team immediately. After the initial best practices call, we would love to walk your team through Collaborator so you can start conducting reviews right away. Again, your account executive will reach out to schedule a time that works for you. Your team also has access to free SmartBear Academy training classes<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___https:/smartbear.com/academy/*23Collaborator___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6MDMyOToyNzFjNTlhZDdkNmY4YjgyYmMzMGUzZDcxMWRmY2NiMjNhY2RmMTA4NDg1ZGMyZjYyNDIwMzA5Njc0MWJlMDdhOmg6VA__;JQ!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzKoAAQHw$>, which include both previously recorded and live sessions.
+
+
+
+If you'd like to move servers or if the Node ID indicated above is incorrect, please contact your account manager with the correct Node ID, and we'd be happy to correct the license code for you. Instructions on locating the Node ID can be found here<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___https:/support.smartbear.com/collaborator/faq/how-do-i-get-the-node-id-and-company-key-from-my-c/___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6MjdmODphMzVlY2JjZDAyNTQ4ZmFhOTRlMzM0ZDljNGRhZmViNmIwNjZkMGYyYzFjNDMxNWM1ZmRkZjI0NDhhZTRjYzdjOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzliwL2fE$>.
+
+Happy Collaborating,
+The SmartBear Team
+
+ <http://www2.smartbear.com/rs/smartbear/images/spacer2.gif>
+
+
+
+ <http://www2.smartbear.com/rs/800-TIV-782/images/Social-Buttons-White.png>
+
+
+
+This email was sent by SmartBear Software, 450 Artisan Way, Somerville, MA. 02145, 617.684.2600, www.smartbear.com<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___http:/www.smartbear.com/___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6YmQ4ODo0YmRjNWQ0NTE1NjM4M2YyYWVmYzZmM2RjZDQzYWRlYWUzZmZiNjhiN2YwMzZjOGI2NDVmM2M5ZGJjNWZmNjNkOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzWYbxi_I$>. We hope you found this email of interest. However, we value your privacy. If you do not wish to receive future correspondence from us, please click here to manage mail preferences<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___http:/www2.smartbear.com/UnsubscribePage.html?mkt_unsubscribe=1&mkt_tok=eyJpIjoiTnpBMU1HRXlObVUyTjJJNSIsInQiOiJHcEZ2VXZJb092QlpJWDVMZkdhMlE5d2UzWjZIWDhaRVBtRmNTQUFjWG9mZlBKT1BjR1FuTTRwVXRjRVpINWM1bmFmUUxvZFRibWZcL1RsMWtWaWNUaVE9PSJ9___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6NzE1ZDo5YjNkN2M5NDI0NjJhODNmZjVhOGZiZTRjMmNjZGU1NDk0ZDNkZTIyM2ZmOTY1MjQxOTBmZmYzMmExODEzODdkOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59Kzja-9X1c$>.
+
+
+
+ <http://www2.smartbear.com/rs/smartbear/images/spacer2.gif>
+
+ <http://www2.smartbear.com/rs/smartbear/images/spacer2.gif>
+
+         <http://www2.smartbear.com/rs/smartbear/images/spacer2.gif>
+
+
+
+We hope you found this email of interest; however, click here if you wish to unsubscribe<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___http:/www2.smartbear.com/SubscriptionCenter.html?utm_source=outlook&utm_medium=email&utm_content=emailsig___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6ZTI2Yzo3ZDg3ZDJmMmQxOWQyOTJjN2JmZjA0YTkxNTE3MDcyZjk4MjFjYjdlZGUzMWZiM2NjMzI0MmQ4MWU4MmM3OThmOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59KzxzgLR3U$> or manage your email preferences. Privacy Policy.<https://urldefense.com/v3/__https:/protect.checkpoint.com/v2/___https:/smartbear.com/privacy/___.YzJlOm1vemFyY21lZGljYWw6YzpvOjA3OThjNWM2MWViYmI2ZWRhOThiMTJhZTVkZjE4ZDdmOjY6YTUyZDo4ZjYyMDE1ZmUwNzhlOWQzNWI3ZWRhZTA1MzdkNjM3ZDBiOGQzMGU1YWYzZmY4MzQwOGQ2NTgyNjdkZjkxMDdhOmg6VA__;!!NFcUtLLUcw!SVuIkFaeTLfHpGuBmJlQZtEq2EsTSoS2cqQUuFNQzICWt0fsMIKLncC5BS8VJuxB6okPSjGMvwEZmlbcd70I6vpQ59Kz4ozgx1g$>
+
+
+
+Disclaimer
+
+The information contained in this communication from the sender is confidential. It is intended solely for use by the recipient and others authorized to receive it. If you are not the recipient, you are hereby notified that any disclosure, copying, distribution or taking action in relation of the contents of this information is strictly prohibited and may be unlawful.
+
+[CONFIDENTIALITY AND PRIVACY NOTICE] Information transmitted by this email is proprietary to Medtronic and is intended for use only by the individual or entity to which it is addressed, and may contain information that is private, privileged, confidential or exempt from disclosure under applicable law. If you are not the intended recipient or it appears that this mail has been forwarded to you without proper authority, you are notified that any use or dissemination of this information in any manner is strictly prohibited. In such cases, please delete this mail from your records. To view this notice in other languages you can either select the following link or manually copy and paste the link into the address bar of a web browser: https://protect.checkpoint.com/v2/___http://emaildisclaimer.medtronic.com___.YzJlOm1vemFyY21lZGljYWw6YzpvOjFiMjkwYWNmZjQ2Y2FmNmU4M2ZjN2MwMTJiNmRlZDYzOjY6MDZiYjoyNDlhMWM2YjY3YTEyYzhkNjhkZDFmNjViYmZmZDFmYmRlNjljNGMzODM2YjlhNjUxN2JiY2FhZmZkZjRlN2FkOnQ6VA
