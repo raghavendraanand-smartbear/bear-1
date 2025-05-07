@@ -1,0 +1,219 @@
+!SESSION 2019-01-14 15:04:32.123 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+
+!ENTRY com.smartbear.collaborator.ui.standalone 4 0 2019-01-14 15:04:33.274
+!MESSAGE Collaborator Enterprise version 11.4.11404
+
+!ENTRY com.smartbear.collaborator 2 0 2019-01-14 15:04:34.245
+!MESSAGE WARN: Mon Jan 14 15:04:34 CET 2019: com.smartbear.scm
+Error trying to auto-detect Team Foundation Server: TFS collection URL is not specified.
+!STACK 0
+com.smartbear.scm.ScmConfigurationException: TFS collection URL is not specified.
+	at com.smartbear.scm.impl.tfs.TfsCore.checkCollectionUrl(TfsCore.java:162)
+	at com.smartbear.scm.impl.tfs.TfsSystem.getClientConfiguration(TfsSystem.java:86)
+	at com.smartbear.scm.ScmUtils.requireScm(ScmUtils.java:639)
+	at com.smartbear.collaborator.standalone.ScmConfig.getClientConfig(ScmConfig.java:139)
+	at com.smartbear.collaborator.standalone.ScmConfig.getScmSystem(ScmConfig.java:108)
+	at com.smartbear.collaborator.ui.standalone.CollabGUIApp$2.run(CollabGUIApp.java:115)
+	at com.smartbear.collaborator.ui.standalone.CollabGuiWindow$8.run(CollabGuiWindow.java:391)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2019-01-14 15:07:32.503
+!MESSAGE Could not finish Review Job
+!STACK 0
+com.smartbear.CollabClientException: java.net.SocketTimeoutException: Read timed out
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:521)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.uploadChange(JsonDiffProcessor.java:180)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:162)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:39)
+	at com.smartbear.ccollab.client.commands.diffs.AbstractCommandAddScmDiffsByCommand.doExecute(AbstractCommandAddScmDiffsByCommand.java:138)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddHgDiffs.executeJson(CommandAddHgDiffs.java:91)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:208)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:433)
+	at com.smartbear.collaborator.Collaborator.executeJson(Collaborator.java:219)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.processChanges(AddToReviewJob.java:222)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.run(AddToReviewJob.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at com.smartbear.ccollab.json.BatchRequest.post(BatchRequest.java:256)
+	at com.smartbear.ccollab.json.BatchRequest.send(BatchRequest.java:188)
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:517)
+	... 11 more
+
+!ENTRY com.smartbear.collaborator 4 0 2019-01-14 15:08:26.269
+!MESSAGE An error occurred trying to Create new Review 'Case 166447:  [GED] Synthesis Error in certain AP combinations with TTS'
+!SUBENTRY 1 com.smartbear.collaborator 4 0 2019-01-14 15:08:26.269
+!MESSAGE Could not finish Review Job
+!STACK 0
+com.smartbear.CollabClientException: java.net.SocketTimeoutException: Read timed out
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:521)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.uploadChange(JsonDiffProcessor.java:180)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:162)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:39)
+	at com.smartbear.ccollab.client.commands.diffs.AbstractCommandAddScmDiffsByCommand.doExecute(AbstractCommandAddScmDiffsByCommand.java:138)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddHgDiffs.executeJson(CommandAddHgDiffs.java:91)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:208)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:433)
+	at com.smartbear.collaborator.Collaborator.executeJson(Collaborator.java:219)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.processChanges(AddToReviewJob.java:222)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.run(AddToReviewJob.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at com.smartbear.ccollab.json.BatchRequest.post(BatchRequest.java:256)
+	at com.smartbear.ccollab.json.BatchRequest.send(BatchRequest.java:188)
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:517)
+	... 11 more
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2019-01-14 15:08:31.040
+!MESSAGE Warning: More than one preferences helper registered!  Choosing: Standalone UI Preferences Helper
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2019-01-14 15:10:04.828
+!MESSAGE Could not finish Review Job
+!STACK 0
+com.smartbear.CollabClientException: java.net.SocketTimeoutException: Read timed out
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:521)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.uploadChange(JsonDiffProcessor.java:180)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:162)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:39)
+	at com.smartbear.ccollab.client.commands.diffs.AbstractCommandAddScmDiffsByCommand.doExecute(AbstractCommandAddScmDiffsByCommand.java:138)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddHgDiffs.executeJson(CommandAddHgDiffs.java:91)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:208)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:433)
+	at com.smartbear.collaborator.Collaborator.executeJson(Collaborator.java:219)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.processChanges(AddToReviewJob.java:222)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.run(AddToReviewJob.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at com.smartbear.ccollab.json.BatchRequest.post(BatchRequest.java:256)
+	at com.smartbear.ccollab.json.BatchRequest.send(BatchRequest.java:188)
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:517)
+	... 11 more
+
+!ENTRY com.smartbear.collaborator 4 0 2019-01-14 15:10:15.542
+!MESSAGE An error occurred trying to Add changes to Review: Case 166447:  [GED] Synthesis Error in certain AP combinations with TTS
+!SUBENTRY 1 com.smartbear.collaborator 4 0 2019-01-14 15:10:15.542
+!MESSAGE Could not finish Review Job
+!STACK 0
+com.smartbear.CollabClientException: java.net.SocketTimeoutException: Read timed out
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:521)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.uploadChange(JsonDiffProcessor.java:180)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:162)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:39)
+	at com.smartbear.ccollab.client.commands.diffs.AbstractCommandAddScmDiffsByCommand.doExecute(AbstractCommandAddScmDiffsByCommand.java:138)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddHgDiffs.executeJson(CommandAddHgDiffs.java:91)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:208)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:433)
+	at com.smartbear.collaborator.Collaborator.executeJson(Collaborator.java:219)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.processChanges(AddToReviewJob.java:222)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.run(AddToReviewJob.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at com.smartbear.ccollab.json.BatchRequest.post(BatchRequest.java:256)
+	at com.smartbear.ccollab.json.BatchRequest.send(BatchRequest.java:188)
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:517)
+	... 11 more
+
+!ENTRY com.smartbear.collaborator.ui 4 0 2019-01-14 15:11:10.311
+!MESSAGE Could not finish Review Job
+!STACK 0
+com.smartbear.CollabClientException: java.net.SocketTimeoutException: Read timed out
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:521)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.uploadChange(JsonDiffProcessor.java:180)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:162)
+	at com.smartbear.ccollab.client.commands.diffs.JsonDiffProcessor.processChangelist(JsonDiffProcessor.java:39)
+	at com.smartbear.ccollab.client.commands.diffs.AbstractCommandAddScmDiffsByCommand.doExecute(AbstractCommandAddScmDiffsByCommand.java:138)
+	at com.smartbear.ccollab.client.commands.diffs.CommandAddHgDiffs.executeJson(CommandAddHgDiffs.java:91)
+	at com.smartbear.ccollab.client.commands.admin.review.AbstractReviewCommand.executeJson(AbstractReviewCommand.java:208)
+	at com.smartbear.ccollab.client.commands.Command.validateAndExecute(Command.java:433)
+	at com.smartbear.collaborator.Collaborator.executeJson(Collaborator.java:219)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.processChanges(AddToReviewJob.java:222)
+	at com.smartbear.collaborator.jobs.AddToReviewJob.run(AddToReviewJob.java:133)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at com.smartbear.ccollab.json.BatchRequest.post(BatchRequest.java:256)
+	at com.smartbear.ccollab.json.BatchRequest.send(BatchRequest.java:188)
+	at com.smartbear.ccollab.client.commands.Command.sendBatch(Command.java:517)
+	... 11 more
