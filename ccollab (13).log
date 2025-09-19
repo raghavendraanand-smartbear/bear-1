@@ -1,0 +1,1544 @@
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Collaborator Enterprise version 14.3.14303
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Build Number:14.3.14303.323
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+VM Max Memory: 8516534272
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+VM Current Memory: 532676608
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Logging System Properties
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  awt.toolkit:  sun.awt.windows.WToolkit
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.version:  11
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.launcherId:  190
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.cpu.isalist:  amd64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.jnu.encoding:  Cp1252
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.nl:  en_IN
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.syspath:  c:\Program Files\Collaborator Client\ui\plugins
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.arch.data.model:  64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  equinox.init.uuid:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ds.delayed.keepInstances.default:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.url:  https://www.microsoft.com
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.system.capabilities:  osgi.ee; osgi.ee="OSGi/Minimum"; version:List<Version>="1.0, 1.1, 1.2", osgi.ee; osgi.ee="JRE"; version:List<Version>="1.0, 1.1", osgi.ee; osgi.ee="JavaSE"; version:List<Version>="1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact1"; version:List<Version>="1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact2"; version:List<Version>="1.8, 9.0, 10.0, 11.0",osgi.ee; osgi.ee="JavaSE/compact3"; version:List<Version>="1.8, 9.0, 10.0, 11.0"
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.boot.library.path:  c:\program files\microsoft\jdk-11.0.11.9-hotspot\bin
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.java.command:  C:\Program Files\Collaborator Client\ccollabgui.exe
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  jdk.debug:  release
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.requirebundle:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.unextractedPosition:  0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.arch:  x86_64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.eclipse.equinox.simpleconfigurator.configUrl:  file:org.eclipse.equinox.simpleconfigurator/bundles.info
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.vendor:  Oracle Corporation
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.language:  en
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.system.packages:  com.sun.jarsigner, com.sun.java.accessibility.util, com.sun.javadoc, com.sun.jdi, com.sun.jdi.connect, com.sun.jdi.connect.spi, com.sun.jdi.event, com.sun.jdi.request, com.sun.jndi.ldap.spi, com.sun.management, com.sun.net.httpserver, com.sun.net.httpserver.spi, com.sun.nio.file, com.sun.nio.sctp, com.sun.security.auth, com.sun.security.auth.callback, com.sun.security.auth.login, com.sun.security.auth.module, com.sun.security.jgss, com.sun.source.doctree, com.sun.source.tree, com.sun.source.util, com.sun.tools.attach, com.sun.tools.attach.spi, com.sun.tools.javac, com.sun.tools.javadoc, com.sun.tools.jconsole, java.applet, java.awt, java.awt.color, java.awt.datatransfer, java.awt.desktop, java.awt.dnd, java.awt.event, java.awt.font, java.awt.geom, java.awt.im, java.awt.im.spi, java.awt.image, java.awt.image.renderable, java.awt.print, java.beans, java.beans.beancontext, java.io, java.lang, java.lang.annotation, java.lang.instrument, java.lang.invoke, java.lang.management, java.lang.module, java.lang.ref, java.lang.reflect, java.math, java.net, java.net.http, java.net.spi, java.nio, java.nio.channels, java.nio.channels.spi, java.nio.charset, java.nio.charset.spi, java.nio.file, java.nio.file.attribute, java.nio.file.spi, java.rmi, java.rmi.activation, java.rmi.dgc, java.rmi.registry, java.rmi.server, java.security, java.security.acl, java.security.cert, java.security.interfaces, java.security.spec, java.sql, java.text, java.text.spi, java.time, java.time.chrono, java.time.format, java.time.temporal, java.time.zone, java.util, java.util.concurrent, java.util.concurrent.atomic, java.util.concurrent.locks, java.util.function, java.util.jar, java.util.logging, java.util.prefs, java.util.regex, java.util.spi, java.util.stream, java.util.zip, javax.accessibility, javax.annotation.processing, javax.crypto, javax.crypto.interfaces, javax.crypto.spec, javax.imageio, javax.imageio.event, javax.imageio.metadata, javax.imageio.plugins.bmp, javax.imageio.plugins.jpeg, javax.imageio.plugins.tiff, javax.imageio.spi, javax.imageio.stream, javax.lang.model, javax.lang.model.element, javax.lang.model.type, javax.lang.model.util, javax.management, javax.management.loading, javax.management.modelmbean, javax.management.monitor, javax.management.openmbean, javax.management.relation, javax.management.remote, javax.management.remote.rmi, javax.management.timer, javax.naming, javax.naming.directory, javax.naming.event, javax.naming.ldap, javax.naming.spi, javax.net, javax.net.ssl, javax.print, javax.print.attribute, javax.print.attribute.standard, javax.print.event, javax.rmi.ssl, javax.script, javax.security.auth, javax.security.auth.callback, javax.security.auth.kerberos, javax.security.auth.login, javax.security.auth.spi, javax.security.auth.x500, javax.security.cert, javax.security.sasl, javax.smartcardio, javax.sound.midi, javax.sound.midi.spi, javax.sound.sampled, javax.sound.sampled.spi, javax.sql, javax.sql.rowset, javax.sql.rowset.serial, javax.sql.rowset.spi, javax.swing, javax.swing.border, javax.swing.colorchooser, javax.swing.event, javax.swing.filechooser, javax.swing.plaf, javax.swing.plaf.basic, javax.swing.plaf.metal, javax.swing.plaf.multi, javax.swing.plaf.nimbus, javax.swing.plaf.synth, javax.swing.table, javax.swing.text, javax.swing.text.html, javax.swing.text.html.parser, javax.swing.text.rtf, javax.swing.tree, javax.swing.undo, javax.tools, javax.transaction.xa, javax.xml, javax.xml.catalog, javax.xml.crypto, javax.xml.crypto.dom, javax.xml.crypto.dsig, javax.xml.crypto.dsig.dom, javax.xml.crypto.dsig.keyinfo, javax.xml.crypto.dsig.spec, javax.xml.datatype, javax.xml.namespace, javax.xml.parsers, javax.xml.stream, javax.xml.stream.events, javax.xml.stream.util, javax.xml.transform, javax.xml.transform.dom, javax.xml.transform.sax, javax.xml.transform.stax, javax.xml.transform.stream, javax.xml.validation, javax.xml.xpath, jdk.dynalink, jdk.dynalink.beans, jdk.dynalink.linker, jdk.dynalink.linker.support, jdk.dynalink.support, jdk.javadoc.doclet, jdk.jfr, jdk.jfr.consumer, jdk.jshell, jdk.jshell.execution, jdk.jshell.spi, jdk.jshell.tool, jdk.management.jfr, jdk.nashorn.api.scripting, jdk.nashorn.api.tree, jdk.net, jdk.nio, jdk.security.jarsigner, jdk.swing.interop, netscape.javascript, org.ietf.jgss, org.w3c.dom, org.w3c.dom.bootstrap, org.w3c.dom.css, org.w3c.dom.events, org.w3c.dom.html, org.w3c.dom.ls, org.w3c.dom.ranges, org.w3c.dom.stylesheets, org.w3c.dom.traversal, org.w3c.dom.views, org.w3c.dom.xpath, org.xml.sax, org.xml.sax.ext, org.xml.sax.helpers, sun.misc, sun.reflect
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.application:  com.smartbear.collaborator.ui.standalone.CollabGUIApp
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  gosh.args:  --nointeractive
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.version.date:  2021-04-20
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.home:  c:\program files\microsoft\jdk-11.0.11.9-hotspot
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  file.separator:  \
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.compressedOopsMode:  Zero based
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  line.separator:  
+
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.executionenvironment:  OSGi/Minimum-1.0, OSGi/Minimum-1.1, OSGi/Minimum-1.2, JavaSE/compact1-1.8, JavaSE/compact2-1.8, JavaSE/compact3-1.8, JRE-1.1, J2SE-1.2, J2SE-1.3, J2SE-1.4, J2SE-1.5, JavaSE-1.6, JavaSE-1.7, JavaSE-1.8, JavaSE-9, JavaSE-10, JavaSE-11
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.specification.name:  Java Platform API Specification
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.vendor:  Oracle Corporation
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.compatibility.bootdelegation.default:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.moduleName:  C:\Program Files\Collaborator Client\ccollabgui.exe
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.script:  
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.util.logging.config.file:  C:\Program Files\Collaborator Client\/ccollab.logging.properties
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.management.compiler:  HotSpot 64-Bit Tiered Compilers
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.runtime.version:  11.0.11+9
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.eclipse.swt.internal.deviceZoom:  100
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.name:  vilas.rathod
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework.useSystemProperties:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.vendor:  Eclipse
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  file.encoding:  Cp1252
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.version:  Microsoft-22268
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.semaphoreName:  Local\c:_program_files_collaborator_client_ccollabgui.exe0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.io.tmpdir:  C:\Users\VILAS~1.RAT\AppData\Local\Temp\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.home.location:  file:/C:/Program Files/Collaborator Client/ui/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.version:  11.0.11
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.bundles.defaultStartLevel:  4
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.name:  Java Virtual Machine Specification
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.awt.printerjob:  sun.awt.windows.WPrinterJob
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.os.patch.level:  
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.configuration.cascaded:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.library.path:  c:\program files\microsoft\jdk-11.0.11.9-hotspot\bin;c:\program files\microsoft\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.11.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft Group Policy\Windows 10 May 2020 Update (2004)\PolicyDefinitions\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Collaborator Client;C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin;C:\Program Files (x86)\NuGet;C:\Program Files\ServiceNow;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Users\vilas.rathod\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\vilas.rathod\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\vilas.rathod\AppData\Local\Programs\Python\Python311;C:\Program Files\Collaborator Client;C:\Users\vilas.rathod\AppData\Local\Microsoft\WindowsApps;C:\Users\vilas.rathod\.dotnet\tools;C:\Users\vilas.rathod\AppData\Roaming\nvm;C:\Program Files\nodejs
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor:  Microsoft
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.io.unicode.encoding:  UnicodeLittle
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.stateSaveDelayInterval:  30000
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.swt:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.desktop:  windows
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.version:  1.9.0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.class.path:  C:\Program Files\Collaborator Client\.install4j\i4jruntime.jar;C:\Program Files\Collaborator Client\.\lib\activation-1.1.1.jar;C:\Program Files\Collaborator Client\.\lib\collab-cmdline-14.3.14303.jar;C:\Program Files\Collaborator Client\.\lib\collab-code-analysis-14.3.14303.jar;C:\Program Files\Collaborator Client\.\lib\commons-cli-2.0.553540.jar;C:\Program Files\Collaborator Client\.\lib\gwt-user-2.8.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\annotation-indexer-1.12.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\ant-1.6.5.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\apache-el-8.0.9.M3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\apache-jsp-8.0.9.M3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\apache-jsp-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\asm-5.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\asm-all-5.0.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\asm-commons-5.0.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\asm-tree-5.0.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\asm-util-5.0.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\bndlib-2.3.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\bridge-method-annotation-1.14.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cdi-api-2.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-client-common-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-code-analysis-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-common-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-datamodel-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-scm-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collab-service-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collaborator-common-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\collaborator-json-api-14.3.14303.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\colt-1.2.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.filesystem.client-3.2.900.v20170426_1705.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.filesystem.common-3.2.900.v20170417_1239.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.foundation.common-1.3.4000.v20170324_0113.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.process.client-1.3.3000.v20170407_1725.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.process.common-1.3.4000.v20170429_0036.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.repository.client-1.3.3000.v20170317_2133.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.repository.common-1.4.4000.v20170503_1641.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.scm.client-3.2.900.v20170424_1700.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.scm.common-3.2.900.v20170424_1642.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.workitem.client-3.1.1600.v20170112_0127.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\com.ibm.team.workitem.common-3.2.800.v20170420_1657.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-beanutils-1.9.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-codec-1.11.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-collections-3.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-collections4-4.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-io-2.6.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-lang-2.6.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-lang3-3.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\commons-logging-1.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cssparser-0.9.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-core-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-bindings-soap-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-bindings-xml-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-databinding-jaxb-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-frontend-jaxws-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-frontend-simple-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-transports-http-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-ws-addr-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-ws-policy-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\cxf-rt-wsdl-3.1.18.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\dd-trace-api-0.78.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\fontbox-2.0.24.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\geronimo-ws-metadata_2.0_spec-1.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\github-api-1.73.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\groovy-all-2.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\gson-2.6.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\guava-20.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\gwt-dev-2.8.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\gwt-user-2.8.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\htmlunit-2.19.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\htmlunit-core-js-2.17.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\httpclient-4.5.8.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\httpcore-4.4.11.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\httpmime-4.5.8.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\ical4j-2.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\icu4j-50.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jackson-annotations-2.9.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jackson-core-2.9.6.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jackson-databind-2.9.6.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jackson-module-mrbean-2.9.6.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\java-gitlab-api-4.0.1.smartbear.7.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javassist-3.18.1-GA.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.activation-api-1.2.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.annotation-api-1.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.el-api-3.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.inject-1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.interceptor-api-1.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.servlet-api-3.1.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\javax.xml.soap-api-1.4.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jaxb-api-2.3.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jaxb-core-2.2.11.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jaxb-impl-2.2.11.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jaxws-api-2.3.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-annotations-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-continuation-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-http-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-io-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-jndi-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-plus-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-schemas-3.1.M0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-security-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-server-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-servlet-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-servlets-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-util-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-webapp-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jetty-xml-9.2.14.v20151106.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jsinterop-annotations-1.0.2-sources.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jsinterop-annotations-1.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\json-20090211.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\json-simple-1.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jsr173-1.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jsr305-3.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\junit-3.8.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\jzlib-1.1.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\markdownj-core-0.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\mixpanel-java-1.4.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\mksapi-jar-4.13.5479.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\msgpack-0.6.11.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\neethi-3.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\nekohtml-1.9.22.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\okhttp-2.7.5.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\okhttp-urlconnection-2.7.5.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\okio-1.6.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\org.eclipse.equinox.common-3.10.300.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\org.eclipse.osgi-3.13.300-custom.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\org.osgi.core-4.3.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\p4java-2014.1.965322.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\pdfbox-2.0.24.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\sac-1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\serializer-2.7.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\slf4j-api-1.7.30.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\stax2-api-3.1.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\super-csv-2.3.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\svn-javahl-api-1.6.18-v2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\tapestry-4.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\validation-api-1.0.0.GA-sources.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\validation-api-1.0.0.GA.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\vault_client_api-1.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\websocket-api-9.2.13.v20150730.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\websocket-client-9.2.13.v20150730.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\websocket-common-9.2.13.v20150730.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\woodstox-core-asl-4.4.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\ws-commons-util-1.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\wsdl4j-1.6.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xalan-2.7.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xercesImpl-2.11.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xml-apis-1.4.01.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xml-resolver-1.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xmlrpc-client-3.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xmlrpc-common-3.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xmlrpc-server-3.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\xmlschema-core-2.2.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_14.3.14303\zzz-com.microsoft.tfs.sdk-11.0.0-custom.jar
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.vendor:  Microsoft
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.exeDir:  C:\Program Files\Collaborator Client\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.variant:  
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.timezone:  Asia/Calcutta
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.uuid:  70a00dcf-19ec-4fd3-9f37-afadd7d5181b
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.name:  Windows 10
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.specification.version:  11
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.processor:  x86-64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.country:  IN
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  collab.install.dir:  C:\Program Files\Collaborator Client\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  sun.cpu.endian:  little
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.logfile:  C:\Users\vilas.rathod\.smartbear\instance\.metadata\.log
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.home:  C:\Users\vilas.rathod
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.install.area:  file:/C:/Program Files/Collaborator Client/ui/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.language:  en
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.user.area:  file:/C:/Users/vilas.rathod/.smartbear/user/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.tracefile:  C:\Users\vilas.rathod\.smartbear\instance\.metadata\trace.log
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.awt.graphicsenv:  sun.awt.Win32GraphicsEnvironment
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ds.delayed.keepInstances:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.tempDir:  
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.consoleCodepage:  cp0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.isInstall4j:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.commands:  
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.sharedConfiguration.area.readOnly:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  path.separator:  ;
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.compatibility.bootdelegation:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.version:  10.0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.runtime.name:  OpenJDK Runtime Environment
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.fragment:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.bundles:  org.eclipse.equinox.simpleconfigurator@1:start,org.eclipse.equinox.common@2:start,org.eclipse.update.configurator@3:start,org.eclipse.core.runtime@start
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework.shape:  jar
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.name:  OpenJDK 64-Bit Server VM
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.framework:  file:/C:/Program Files/Collaborator Client/ui/plugins/org.eclipse.osgi_3.15.300.v20200520-1959.jar
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.configuration.area:  file:/C:/Users/vilas.rathod/.smartbear/configuration/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  com.microsoft.tfs.jni.native.base-directory:  C:\Program Files\Collaborator Client\/ui/plugins/com.smartbear.collaborator_14.3.14303/libs/native
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  install4j.appDir:  C:\Program Files\Collaborator Client\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.os:  win32
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vendor.url.bug:  https://github.com/microsoft/openjdk/issues
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.os.name:  Windows10
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.supports.framework.extension:  true
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.storage:  C:\Users\vilas.rathod\.smartbear\configuration
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  user.dir:  C:\Program Files\Collaborator Client
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  os.arch:  amd64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.sharedConfiguration.area:  file:/C:/Program Files/Collaborator Client/ui/configuration/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.ws:  win32
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  osgi.instance.area:  file:/C:/Users/vilas.rathod/.smartbear/instance/
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  eclipse.startTime:  1710230157437
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  org.osgi.framework.os.version:  10.0.0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.info:  mixed mode
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.vm.version:  11.0.11+9
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  java.class.version:  55.0
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  exe4j.launchName:  ccollabgui
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+Logging environment variables.
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDOMAIN_ROAMINGPROFILE:  NETADDS
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  NVM_SYMLINK:  C:\Program Files\nodejs
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_LEVEL:  6
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  VS140COMNTOOLS:  C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SESSIONNAME:  Console
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ALLUSERSPROFILE:  C:\ProgramData
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_ARCHITECTURE:  AMD64
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PSModulePath:  C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SystemDrive:  C:
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERNAME:  vilas.rathod
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  StandardOutput:  D:\source\products\sciexos\output\bin
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDNSDOMAIN:  NETADDS.NET
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramFiles(x86):  C:\Program Files (x86)
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  FPS_BROWSER_USER_PROFILE_STRING:  Default
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PATHEXT:  .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  DriverData:  C:\Windows\System32\Drivers\DriverData
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramData:  C:\ProgramData
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramW6432:  C:\Program Files
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HOMEPATH:  \Users\vilas.rathod
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_IDENTIFIER:  Intel64 Family 6 Model 141 Stepping 1, GenuineIntel
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ProgramFiles:  C:\Program Files
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PUBLIC:  C:\Users\Public
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  windir:  C:\windows
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  =:::  ::\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ZES_ENABLE_SYSMAN:  1
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OneDriveCommercial:  C:\Users\vilas.rathod\OneDrive - Danaher
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  LOCALAPPDATA:  C:\Users\vilas.rathod\AppData\Local
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERDOMAIN:  NETADDS
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  FPS_BROWSER_APP_PROFILE_STRING:  Internet Explorer
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  LOGONSERVER:  \\APSNG-ADDC1
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SciexEnabledFeatureToggles:   
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  WIX:  C:\Program Files (x86)\WiX Toolset v3.11\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  JAVA_HOME:  C:\Program Files\Microsoft\jdk-11.0.11.9-hotspot\
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TT_DIRECTORY_OPTSET:  D:\source\products\sciexos\output\bin
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OneDrive:  C:\Users\vilas.rathod\OneDrive - Danaher
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  APPDATA:  C:\Users\vilas.rathod\AppData\Roaming
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramFiles:  C:\Program Files\Common Files
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  Path:  c:\program files\microsoft\jdk-11.0.11.9-hotspot\bin;c:\program files\microsoft\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.11.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft Group Policy\Windows 10 May 2020 Update (2004)\PolicyDefinitions\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Collaborator Client;C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin;C:\Program Files (x86)\NuGet;C:\Program Files\ServiceNow;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Users\vilas.rathod\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\vilas.rathod\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\vilas.rathod\AppData\Local\Programs\Python\Python311;C:\Program Files\Collaborator Client;C:\Users\vilas.rathod\AppData\Local\Microsoft\WindowsApps;C:\Users\vilas.rathod\.dotnet\tools;C:\Users\vilas.rathod\AppData\Roaming\nvm;C:\Program Files\nodejs
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  OS:  Windows_NT
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  COMPUTERNAME:  APBANL-GVFTGK3
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  NVM_HOME:  C:\Users\vilas.rathod\AppData\Roaming\nvm
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  PROCESSOR_REVISION:  8d01
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramW6432:  C:\Program Files\Common Files
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  ComSpec:  C:\windows\system32\cmd.exe
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  UATDATA:  C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  COMMONDOCUMENTS:  C:\Users\Public\Documents
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  SystemRoot:  C:\windows
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TEMP:  C:\Users\VILAS~1.RAT\AppData\Local\Temp
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  HOMEDRIVE:  C:
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  USERPROFILE:  C:\Users\vilas.rathod
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  TMP:  C:\Users\VILAS~1.RAT\AppData\Local\Temp
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  CommonProgramFiles(x86):  C:\Program Files (x86)\Common Files
+DEBUG: Tue Mar 12 13:29:09 IST 2024: com.smartbear.collaborator.ui.debug.DebugWindow
+  NUMBER_OF_PROCESSORS:  16
+DEBUG: Tue Mar 12 13:31:54 IST 2024: com.smartbear.collaborator.ui.standalone.addtoreview.DefaultAddToReviewButtonFactory
+Running 'Add Commits...'
+DEBUG: Tue Mar 12 13:31:54 IST 2024: com.smartbear.collaborator.ui.standalone.addtoreview.DefaultAddToReviewButtonFactory
+Using ScmConfig with Path = 'D:\source', Options = ScmOptions: {
+   current-directory = D:\source
+   global-provider = git
+   scm = git
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = C:\Program Files\Git\bin\git.exe
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (StarTeam only)
+      stcmd-exe = stcmd
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Surround SCM only)
+      surround-exe = sscm
+      surround-server = (Empty)
+      surround-single-sign-on = false
+      surround-user = (Empty)
+      surround-passwd = (Empty)
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+   (Vault only)
+      vault-profile = (Empty)
+      vault-server = (Empty)
+      vault-repo = (Empty)
+      vault-user = (Empty)
+      vault-passwd = (Empty)
+      vault-proxy-domain = (Empty)
+      vault-proxy-server = (Empty)
+      vault-proxy-port = (Empty)
+      vault-proxy-user = (Empty)
+      vault-proxy-passwd = (Empty)
+      vault-fortress-mode = false
+
+   (Visual SourceSafe only)
+      vss-passwd = (Empty)
+      vss-exe = (Empty)
+      vss-user = (Empty)
+
+}
+DEBUG: Tue Mar 12 13:31:54 IST 2024: com.smartbear.collaborator.ui.standalone.addtoreview.DefaultAddToReviewButtonFactory
+Using Git clientConfig instance: GIT_DIR=D:\source
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-0: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-9: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-8: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-7: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-6: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-5: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-3: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-4: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-1: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager is shutting down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-2: Close connection
+DEBUG: Tue Mar 12 13:32:14 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection manager shut down
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 CommandLine: [C:\Program Files\Git\bin\git.exe, log, --pretty=raw, --raw, --abbrev=40, -M, -1, 538bda6210ba2255603f7832e31dfae703b32f9e, --]
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 working directory: null
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 env: {}
+INFO: Tue Mar 12 13:32:14 IST 2024: com.smartbear.util.PoolThreadFactory
+Thread CommandRunner-1511809919-4 created by thread ModalContext
+INFO: Tue Mar 12 13:32:14 IST 2024: com.smartbear.util.PoolThreadFactory
+Thread CommandRunner-1511809919-5 created by thread ModalContext
+INFO: Tue Mar 12 13:32:14 IST 2024: com.smartbear.util.PoolThreadFactory
+Thread CommandRunner-1511809919-6 created by thread ModalContext
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 contents of stdin:
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 contents of stdout:
+00000000 636f6d6d69742035 3338626461363231
+00000010 3062613232353536 3033663738333265
+00000020 3331646661653730 336233326639650a
+00000030 7472656520376635 3566626466346334
+00000040 3632316264623934 6438383431313133
+00000050 3461316132376437 35613438310a7061
+00000060 72656e7420323233 6436626632643234
+00000070 3133373839663134 3830313766373135
+00000080 3030653163653936 35653761340a6175
+00000090 74686f722076696c 61732e726174686f
+000000a0 64203c76696c6173 2e726174686f6440
+000000b0 73636965782e636f 6d3e203137303938
+000000c0 3237333239202b30 3533300a636f6d6d
+000000d0 6974746572207669 6c61732e72617468
+000000e0 6f64203c76696c61 732e726174686f64
+000000f0 4073636965782e63 6f6d3e2031373039
+00000100 636f6d6d69742035 3338626461363231
+00000110 3062613232353536 3033663738333265
+00000120 3331646661653730 336233326639650a
+00000130 7472656520376635 3566626466346334
+00000140 3632316264623934 6438383431313133
+00000150 3461316132376437 35613438310a7061
+00000160 72656e7420323233 6436626632643234
+00000170 3133373839663134 3830313766373135
+00000180 3030653163653936 35653761340a6175
+00000190 74686f722076696c 61732e726174686f
+000001a0 64203c76696c6173 2e726174686f6440
+000001b0 73636965782e636f 6d3e203137303938
+000001c0 3237333239202b30 3533300a636f6d6d
+000001d0 6974746572207669 6c61732e72617468
+000001e0 6f64203c76696c61 732e726174686f64
+000001f0 4073636965782e63 6f6d3e2031373039
+00000200 383237333239202b 303533300a0a2020
+00000210 20204f4e59582d33 39333132202d2075
+00000220 7064617465642074 6573742063617365
+00000230 2e0a0a3a31303036 3434203130303634
+00000240 3420623665303763 3334646661613133
+00000250 3761313133323664 6261333636333733
+00000260 6563336232343764 6335206564356563
+00000270 3362313336656665 3163316331616630
+00000280 6563666661336335 3838346438633562
+00000290 613834204d096f6e 79782f6163717569
+000002a0 736974696f6e2f53 6f757263652f4163
+000002b0 717569736974696f 6e2f54657374732f
+000002c0 4672616d65776f72 6b2e556e69745465
+000002d0 7374732f496e7465 726e616c2f436c65
+000002e0 6172636f7265322e 5365727669636550
+000002f0 61636b6167654372 6561746f722f5061
+00000300 636b616765437265 61746f722e556e69
+00000310 74546573742e6373 0a
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 contents of stderr:
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+1 exit code: 0
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 CommandLine: [C:\Program Files\Git\bin\git.exe, log, --pretty=raw, --raw, --abbrev=40, -M, 538bda6210ba2255603f7832e31dfae703b32f9e..HEAD, --]
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 working directory: null
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 env: {}
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 contents of stdin:
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 contents of stdout:
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 contents of stderr:
+
+DEBUG: Tue Mar 12 13:32:14 IST 2024: com.smartbear.scm.cmd.impl.DebugCommandRunner
+2 exit code: 0
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 10][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59495<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> Content-Length: 60
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.headers
+http-outgoing-10 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "Content-Length: 60[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:18 IST 2024: org.apache.http.wire
+http-outgoing-10 >> "[{"command":"ServerInfoService.getServerBuild","args":null}]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Set-Cookie: JSESSIONID_COLLAB=95228093BF77A85CC294E0F4CFDA77DC; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Content-Length: 34[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Date: Tue, 12 Mar 2024 08:02:18 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-10 << "[{"result":{"serverBuild":14303}}]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Set-Cookie: JSESSIONID_COLLAB=95228093BF77A85CC294E0F4CFDA77DC; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Content-Length: 34
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Date: Tue, 12 Mar 2024 08:02:18 GMT
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-10 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="95228093BF77A85CC294E0F4CFDA77DC", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 10][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-10: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 10][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Current server version: 14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 11][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59496<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> Content-Length: 71
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "Content-Length: 71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 >> "[{"command":"ServerInfoService.getMinimumJavaClientBuild","args":null}]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Set-Cookie: JSESSIONID_COLLAB=A25D50F438624943FBEF62BADBC08C52; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Content-Length: 45[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Date: Tue, 12 Mar 2024 08:02:18 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-11 << "[{"result":{"minimumJavaClientBuild":14000}}]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Set-Cookie: JSESSIONID_COLLAB=A25D50F438624943FBEF62BADBC08C52; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Content-Length: 45
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Date: Tue, 12 Mar 2024 08:02:18 GMT
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-11 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="A25D50F438624943FBEF62BADBC08C52", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 11][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-11: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 11][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Current client version: 14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Tue Mar 12 13:32:19 IST 2024: com.smartbear.beans.ConfigUtils
+Loaded 'loginticketid' = '22ba37ef9a8dace02ef6069af2e892b5' from config file
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 12][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59501<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> Content-Length: 284
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.headers
+http-outgoing-12 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "Content-Length: 284[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:19 IST 2024: org.apache.http.wire
+http-outgoing-12 >> "[{"command":"SessionService.setMetadata","args":{"clientName":"bc224b8c695061ff27f8dd84dc038b71","clientStringId":"json-api-client","expectedServerVersion":"14303"}},{"command":"SessionService.authenticate","args":{"login":"vilas.rathod","ticket":"22ba37ef9a8dace02ef6069af2e892b5"}}]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Set-Cookie: JSESSIONID_COLLAB=D7257083AAE12A4767ECC428795F5725; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Content-Length: 29[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Date: Tue, 12 Mar 2024 08:02:19 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-12 << "[{"result":{}},{"result":{}}]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Set-Cookie: JSESSIONID_COLLAB=D7257083AAE12A4767ECC428795F5725; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Content-Length: 29
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Date: Tue, 12 Mar 2024 08:02:19 GMT
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-12 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="D7257083AAE12A4767ECC428795F5725", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 12][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-12: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 12][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 13][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59502<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> Content-Length: 56
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "Content-Length: 56[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 >> "[{"command":"ServerInfoService.getEdition","args":null}]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Set-Cookie: JSESSIONID_COLLAB=3D6980F72631F368801B3885BC5DCAB3; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Content-Length: 37[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Date: Tue, 12 Mar 2024 08:02:19 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.wire
+http-outgoing-13 << "[{"result":{"edition":"Enterprise"}}]"
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Set-Cookie: JSESSIONID_COLLAB=3D6980F72631F368801B3885BC5DCAB3; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Content-Length: 37
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Date: Tue, 12 Mar 2024 08:02:19 GMT
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.headers
+http-outgoing-13 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="3D6980F72631F368801B3885BC5DCAB3", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 13][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-13: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 13][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: com.smartbear.ccollab.client.LoginUtils
+client version: Collaborator Enterprise version 14.3.14303.323
+DEBUG: Tue Mar 12 13:32:20 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Connected to server build 14303
+DEBUG: Tue Mar 12 13:32:20 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Connected server edition: Enterprise
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 14][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:20 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59503<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> Content-Length: 205
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "Content-Length: 205[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 >> "[{"command":"ServerInfoService.getSystemGlobalValues","args":{"systemGlobalValuesNames":["license-company-key","license-node-id","license-fixed-seats","license-floating-seats","license-expiration-date"]}}]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Set-Cookie: JSESSIONID_COLLAB=A73A43EA32CE666182F54481189214FC; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Content-Length: 192[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Date: Tue, 12 Mar 2024 08:02:21 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-14 << "[{"result":{"systemGlobalValues":{"license-node-id":"3F8C0767","license-fixed-seats":"-1","license-company-key":"sciex","license-floating-seats":"-1","license-expiration-date":"4102358400"}}}]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Set-Cookie: JSESSIONID_COLLAB=A73A43EA32CE666182F54481189214FC; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Content-Length: 192
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Date: Tue, 12 Mar 2024 08:02:21 GMT
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-14 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="A73A43EA32CE666182F54481189214FC", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 14][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-14: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 14][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:21 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Server license company key: sciex
+DEBUG: Tue Mar 12 13:32:21 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Server license node ID: 3F8C0767
+DEBUG: Tue Mar 12 13:32:21 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Server license fixed seats:-1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Server license floating seats: -1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: com.smartbear.ccollab.client.LoginUtils
+Server license upgrades until: 2099-12-31T05:30:00+05:30
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 15][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59504<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> Content-Length: 75
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "Content-Length: 75[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 >> "[{"command":"UserService.findUserByLogin","args":{"login":"vilas.rathod"}}]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Set-Cookie: JSESSIONID_COLLAB=9AC88D36FAF3C5301EC10A25216FD854; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Content-Length: 232[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Date: Tue, 12 Mar 2024 08:02:21 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.wire
+http-outgoing-15 << "[{"result":{"id":623,"fullName":"vilas.rathod","enabled":true,"email":"vilas.rathod@sciex.com","remoteSystemAdmin":false,"admin":false,"phone":"","remoteMapping":{},"login":"vilas.rathod","guid":"0d1f7aa2e45a0190cb2b5dfdec36c8de"}}]"
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Set-Cookie: JSESSIONID_COLLAB=9AC88D36FAF3C5301EC10A25216FD854; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Content-Length: 232
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Date: Tue, 12 Mar 2024 08:02:21 GMT
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.headers
+http-outgoing-15 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="9AC88D36FAF3C5301EC10A25216FD854", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 15][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-15: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:21 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 15][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:27 IST 2024: com.smartbear.beans.ConfigUtils
+Loading preferences: C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt
+DEBUG: Tue Mar 12 13:32:27 IST 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt exists
+DEBUG: Tue Mar 12 13:32:27 IST 2024: com.smartbear.beans.ConfigUtils
+File C:\Users\vilas.rathod\.smartbear\com.smartbear.ccollab.client.txt can be read
+DEBUG: Tue Mar 12 13:32:27 IST 2024: com.smartbear.beans.ConfigUtils
+Loaded 'loginticketid' = '22ba37ef9a8dace02ef6069af2e892b5' from config file
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.client.protocol.RequestAddCookies
+CookieSpec selected: default
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.client.protocol.RequestAuthCache
+Auth cache not set in the context
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection request: [route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection leased: [id: 16][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Opening connection {}->http://codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connecting to codecollaborator.netadds.net/10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.conn.DefaultHttpClientConnectionOperator
+Connection established 10.133.166.177:59508<->10.132.11.189:8080
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Executing request POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Target auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Proxy auth state: UNCHALLENGED
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> POST /services/json/v1 HTTP/1.1
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> X-Smart-Bear-Build: 14303
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> Content-Length: 353
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> Content-Type: application/json; charset=UTF-8
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> Host: codecollaborator.netadds.net:8080
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> Connection: Keep-Alive
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> User-Agent: Collaborator Enterprise 14.3.14303
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.headers
+http-outgoing-16 >> Accept-Encoding: gzip,deflate
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "POST /services/json/v1 HTTP/1.1[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "X-Smart-Bear-Build: 14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "X-Smart-Bear-Client-GUID: bc224b8c695061ff27f8dd84dc038b71[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "Content-Length: 353[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "Host: codecollaborator.netadds.net:8080[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "Connection: Keep-Alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "User-Agent: Collaborator Enterprise 14.3.14303[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:27 IST 2024: org.apache.http.wire
+http-outgoing-16 >> "[{"command":"SessionService.setMetadata","args":{"clientName":"bc224b8c695061ff27f8dd84dc038b71","clientStringId":"json-api-client","expectedServerVersion":"14303"}},{"command":"SessionService.authenticate","args":{"login":"vilas.rathod","ticket":"22ba37ef9a8dace02ef6069af2e892b5"}},{"command":"ReviewService.getReviewsCanUploadChangelists","args":{}}]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "HTTP/1.1 200 [\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Set-Cookie: JSESSIONID_COLLAB=CC2C6CE1405B3581FDDA9591B6F762A4; Path=/; HttpOnly; SameSite=Lax[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "X-Smart-Bear-Not-Logged-In: true[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "X-FRAME-OPTIONS: DENY[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Content-Length: 89[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Date: Tue, 12 Mar 2024 08:02:27 GMT[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Keep-Alive: timeout=20[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "Connection: keep-alive[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "[\r][\n]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.wire
+http-outgoing-16 << "[{"result":{}},{"result":{}},{"errors":[{"code":"NullPointerException","message":null}]}]"
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << HTTP/1.1 200 
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Set-Cookie: JSESSIONID_COLLAB=CC2C6CE1405B3581FDDA9591B6F762A4; Path=/; HttpOnly; SameSite=Lax
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << X-Smart-Bear-Not-Logged-In: true
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << X-FRAME-OPTIONS: DENY
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << X-Content-Security-Policy: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << X-WebKit-CSP: default-src 'none';style-src 'self' 'unsafe-inline';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.driftt.com http://cdn.mxpnl.com http://localhost:9876 http://127.0.0.1:9876;img-src 'self' data:;frame-src * data:;frame-ancestors * data:;connect-src 'self' https://api-js.mixpanel.com;form-action 'self';font-src 'self';object-src 'self'
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << X-XSS-Protection: 1; mode=block
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Content-Type: application/json;charset=utf-8
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Content-Length: 89
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Date: Tue, 12 Mar 2024 08:02:27 GMT
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Keep-Alive: timeout=20
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.headers
+http-outgoing-16 << Connection: keep-alive
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.impl.execchain.MainClientExec
+Connection can be kept alive for 20000 MILLISECONDS
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.client.protocol.ResponseProcessCookies
+Cookie accepted [JSESSIONID_COLLAB="CC2C6CE1405B3581FDDA9591B6F762A4", version:0, domain:codecollaborator.netadds.net, path:/, expiry:null]
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection [id: 16][route: {}->http://codecollaborator.netadds.net:8080] can be kept alive for 20.0 seconds
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.impl.conn.DefaultManagedHttpClientConnection
+http-outgoing-16: set socket timeout to 0
+DEBUG: Tue Mar 12 13:32:28 IST 2024: org.apache.http.impl.conn.PoolingHttpClientConnectionManager
+Connection released: [id: 16][route: {}->http://codecollaborator.netadds.net:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+ERROR: Tue Mar 12 13:32:28 IST 2024: com.smartbear.collaborator.ui
+Error running operation
+java.lang.NullPointerException
+	at com.smartbear.collaborator.json.utils.BatchRequest.process(BatchRequest.java:345)
+	at com.smartbear.collaborator.json.utils.BatchRequest.send(BatchRequest.java:196)
+	at com.smartbear.collaborator.json.api.AbstractApi.sendBatch(AbstractApi.java:95)
+	at com.smartbear.collaborator.json.api.review.UtilitiesApi.getReviewsCanUploadChangelists(UtilitiesApi.java:103)
+	at com.smartbear.collaborator.ui.wizards.ReviewPage$7.run(ReviewPage.java:377)
+	at com.smartbear.collaborator.ui.wizards.ProgressWizardDialog$AsyncWorkerThread.run(ProgressWizardDialog.java:231)
