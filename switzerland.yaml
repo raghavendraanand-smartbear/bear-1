@@ -1,0 +1,20 @@
+fetch_switzerland_county_images:
+  description: "Fetch images of Swiss cantons (counties) from a public image source"
+  source: "https://commons.wikimedia.org/wiki/Category:Cantons_of_Switzerland"
+  method: "web_scraping"
+  steps:
+    - step: "Access the main category page"
+      url: "https://commons.wikimedia.org/wiki/Category:Cantons_of_Switzerland"
+    - step: "Extract links to individual canton pages"
+      selector: "div.CategoryTreeItem a"
+    - step: "Visit each canton page and extract the image"
+      selector: "div.thumb img"
+      attribute: "src"
+    - step: "Download the image"
+      save_directory: "images/switzerland_cantons"
+  output_format:
+    image_name: "<canton_name>.jpg"
+    metadata:
+      - canton_name
+      - source_url
+      - download_timestamp
