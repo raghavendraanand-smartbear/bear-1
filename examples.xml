@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<script>
+	<attributes>
+		<attrib name="scriptname"/>
+		<attrib name="description">script-20260214T173541</attrib>
+		<attrib name="company">SmartBear%20Software%20Inc</attrib>
+		<attrib name="appname">Deja</attrib>
+		<attrib name="scripttype">DejaClick%20for%20Chrome</attrib>
+		<attrib name="acceptcookies">0</attrib>
+		<attrib name="disablepopups">false</attrib>
+		<attrib name="scriptstatus">scriptCheck</attrib>
+	</attributes>
+	<actions type="record">
+		<action type="browser" seq="1">
+			<event type="navigate" seq="1">
+				<eventparams>
+					<param name="urlrequested">https%3A%2F%2Fchatgpt.com%2F</param>
+					<param name="urlfinalized">https%3A%2F%2Fchatgpt.com%2F</param>
+				</eventparams>
+				<replayhints>
+					<hint name="netactivity">no</hint>
+					<hint name="thinktime">3000</hint>
+				</replayhints>
+			</event>
+		</action>
+		<action type="browser" seq="2">
+			<event type="change" seq="2">
+				<attributes>
+					<attrib name="usekeystrokes">true</attrib>
+					<attrib name="simulateenter">true</attrib>
+				</attributes>
+				<targets>
+					<target type="document"/>
+					<target type="element">
+						<fingerprint>1%3A1%3A1%3A1%3A2%3A2</fingerprint>
+						<elementpath>//textarea</elementpath>
+						<elementfullxpath>%2Fhtml%2Fbody%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%2Finput%5B1%5D</elementfullxpath>
+						<breadcrumbs>
+							<crumb tag="INPUT" index="0">
+								<attributes>
+									<attrib name="type">text</attrib>
+								</attributes>
+							</crumb>
+							<crumb tag="DIV" index="1">
+								<attributes>
+									<attrib name="id">a_viewport</attrib>
+								</attributes>
+							</crumb>
+							<crumb tag="DIV" index="0">
+								<attributes>
+									<attrib name="id">app</attrib>
+								</attributes>
+							</crumb>
+							<crumb tag="BODY" index="0"/>
+						</breadcrumbs>
+					</target>
+				</targets>
+				<eventparams>
+					<param name="value">Reply with exactly the word OK and nothing else</param>
+				</eventparams>
+				<replayhints>
+					<hint name="thinktime">2500</hint>
+				</replayhints>
+			</event>
+		</action>
+		<action type="browser" seq="3">
+			<event type="click" seq="3" stepbreakallowed="true">
+				<eventparams>
+					<param name="detail">1</param>
+					<param name="sequence">mouseover%2Cmousedown%2Cmouseup%2Cclick</param>
+				</eventparams>
+				<targets>
+					<target type="document">
+						<fingerprint>1%3A1%3A1%3A1%3A2</fingerprint>
+					</target>
+					<target type="element">
+						<fingerprint>1%3A1%3A3%3A1%3A1%3A1%3A2%3A1%3A2%3A1%3A1%3A2%3A1%3A1%3A1%3A1%3A2%3A1%3A2%3A1%3A3%3A1%3A1%3A1</fingerprint>
+						<elementpath>id('composer-submit-button')</elementpath>
+						<elementfullxpath>%2Fhtml%2Fbody%2Fdiv%5B2%5D%2Fdiv%2Fdiv%5B1%5D%2Fdiv%2Fdiv%5B2%5D%2Fdiv%2Fmain%2Fdiv%2Fdiv%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%2Fdiv%2Fdiv%2Fdiv%5B2%5D%2Fform%2Fdiv%5B2%5D%2Fdiv%2Fdiv%5B3%5D%2Fdiv%2Fbutton%2Fsvg</elementfullxpath>
+						<breadcrumbs>
+							<crumb tag="svg" index="0"/>
+							<crumb tag="BUTTON" index="1">
+								<attributes>
+									<attrib name="id">composer-submit-button</attrib>
+									<attrib name="type">submit</attrib>
+								</attributes>
+							</crumb>
+						</breadcrumbs>
+					</target>
+				</targets>
+				<replayhints>
+					<hint name="thinktime">14000</hint>
+				</replayhints>
+			</event>
+		</action>
+	</actions>
+</script>
